@@ -7,7 +7,7 @@ GadgetUsage.fun <- function(){
   #Read list of dbs
   dbs.df <- read.delim(file.path(getwd(),"KnownDbs","Databases.tsv"), header = TRUE, as.is = TRUE)
   
-  data_retrieve.fun <- function(){
+  downstairs_mixup.fun <- function(){
     
     #Query function
     sql.fun <- function(query_type){
@@ -83,7 +83,7 @@ GadgetUsage.fun <- function(){
   output.fun <- function(){
     
     #Run data retrieval function
-    gadget_data.df <- data_retrieve.fun()
+    gadget_data.df <- downstairs_mixup.fun()
     
     #Number of projects each gadget is on, and associated data
     gadget_by_wiki.df <- rename(ddply(.data = gadget_data.df,
@@ -103,8 +103,9 @@ GadgetUsage.fun <- function(){
     gadget_by_wiki.path <- file.path(getwd(),"GadgetUsage","gadgets_by_wikis.tsv")
     write.table(gadget_by_wiki.df, file = gadget_by_wiki.path, col.names = TRUE, row.names = FALSE, quote = FALSE,
     sep = "\t")
-    
-    #Writes
     wiki_by_gadgets.path <- file.path(getwd(),"GadgetUsage","wikis_by_gadgets.tsv")
     write.table(wiki_by_gadgets.df, file = wiki_by_gadgets.path, col.names = TRUE, row.names = FALSE, quote = FALSE,
+    sep = "\t")
+    gadget_data.path <- file.path(getwd(),"GadgetUsage","gadget_data.tsv")
+    write.table(gadget_data.df, file = gadget_data.path, col.names = TRUE, row.names = FALSE, quote = FALSE,
     sep = "\t")
