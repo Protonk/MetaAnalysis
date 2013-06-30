@@ -10,7 +10,7 @@ GadgetUsage.fun <- function(){
   data_retrieve.fun <- function(){
     
     #Query function
-    sql.fun <- function(){
+    sql.fun <- function(query_type){
       
       #Open a connection
       con <- dbConnect(drv = "MySQL",
@@ -19,8 +19,11 @@ GadgetUsage.fun <- function(){
                        host = query_server,
                        dbname = query_database)
       
-      #Query
-      QuerySend <- dbSendQuery(con, statement = "SELECT DISTINCT up_property AS preference, COUNT(*) AS users FROM user_properties GROUP BY preference;")
+      if(query_type == 1){
+        QuerySend <- dbSendQuery(con, statement = "SELECT DISTINCT up_property AS preference, COUNT(*) AS users FROM user_properties GROUP BY preference;")
+      } else if(query_type == 2){
+        QuerySend <- dbSendQuery(con, statement = "SHOW TABLES AS tables;")
+      }
       
       #Retrieve output of query
       output <- fetch(QuerySend, n = -1)
@@ -46,15 +49,19 @@ GadgetUsage.fun <- function(){
       query_database <- as.character(dbs.df[BatChainPuller,1])
       query_server <- as.character(dbs.df[BatChainPuller,2])
       
-      query.df <- sql.fun()
+      query.df <- sql.fun(query_type = 2)
+      
+      if(length(query.df[query.df[,1] == "user_properties",]) >= 1){
+        query.df <- sql.fun(query_type = 1)
 
-      #If to take into account the wikis which are, for some reason, pre-1.16 user.user_options blob hellholes.
-      if(nrow(query.df) >= 1){
-        output_data.df <- rbind(output_data.df, query.df)
-      
-        query.df$Project <- query_database
-        query.df$Project_Type <- as.character(dbs.df[BatChainPuller,4])
-      
+        #If to take into account the wikis which are, for some reason, pre-1.16 user.user_options blob hellholes.
+        if(nrow(query.df) >= 1){
+          output_data.df <- rbind(output_data.df, query.df)
+        
+          query.df$Project <- query_database
+          query.df$Project_Type <- as.character(dbs.df[BatChainPuller,4])
+        
+        }
       }
       
       #Increment
