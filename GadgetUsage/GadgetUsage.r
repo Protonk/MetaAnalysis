@@ -101,10 +101,10 @@ GadgetUsage.fun <- function(){
     
     #Writes
     gadget_by_wiki.path <- file.path(getwd(),"GadgetUsage","gadgets_by_wikis.tsv")
-    write.table(gadget_by_wiki.df, file = gadget_by_wiki.path, col.names = TRUE, row.names = FALSE, quote = FALSE
+    write.table(gadget_by_wiki.df, file = gadget_by_wiki.path, col.names = TRUE, row.names = FALSE, quote = FALSE,
     sep = "\t")
     
     #Writes
     wiki_by_gadgets.path <- file.path(getwd(),"GadgetUsage","wikis_by_gadgets.tsv")
-    write.table(gadget_by_wiki.df, file = wiki_by_gadgets.path, col.names = TRUE, row.names = FALSE, quote = FALSE
+    write.table(wiki_by_gadgets.df, file = wiki_by_gadgets.path, col.names = TRUE, row.names = FALSE, quote = FALSE,
     sep = "\t")
