@@ -22,7 +22,7 @@ GadgetUsage.fun <- function(){
       if(query_type == 1){
         QuerySend <- dbSendQuery(con, statement = "SELECT DISTINCT up_property AS preference, COUNT(*) AS users FROM user_properties GROUP BY preference;")
       } else if(query_type == 2){
-        QuerySend <- dbSendQuery(con, statement = "SHOW TABLES AS tables;")
+        QuerySend <- dbSendQuery(con, statement = "SHOW TABLES;")
       }
       
       #Retrieve output of query
@@ -56,11 +56,11 @@ GadgetUsage.fun <- function(){
 
         #If to take into account the wikis which are, for some reason, pre-1.16 user.user_options blob hellholes.
         if(nrow(query.df) >= 1){
-          output_data.df <- rbind(output_data.df, query.df)
         
           query.df$Project <- query_database
           query.df$Project_Type <- as.character(dbs.df[BatChainPuller,4])
         
+          output_data.df <- rbind(output_data.df, query.df)
         }
       }
       
@@ -72,4 +72,39 @@ GadgetUsage.fun <- function(){
         AshtrayHeart <- FALSE
       }
     }
-      
+    
+    #Sanitise
+    output_data.df <- output_data.df[grepl(pattern = "(gadget)", x = output_data.df$preference, perl = TRUE, ignore.case = TRUE),]
+    
+    #Return
+    return(output_data.df)
+  }
+  
+  output.fun <- function(){
+    
+    #Run data retrieval function
+    gadget_data.df <- data_retrieve.fun()
+    
+    #Number of projects each gadget is on, and associated data
+    gadget_by_wiki.df <- rename(ddply(.data = gadget_data.df,
+                               .variable = "preference",
+                               .fun = function(x){
+                                  wikis <- length(x$Project)
+                                  users <- sum(x$users)
+                                  output.vec <- as.vector(c(wikis,users))
+                                  return(output.vec)
+                               }
+                              ),replace=c("V1" = "Wikis","V2" = "Users"))
+    
+    #Number of gadgets each wiki has
+    wiki_by_gadgets.df <- as.data.frame(table(gadget_data.df$Project))
+    
+    #Writes
+    gadget_by_wiki.path <- file.path(getwd(),"GadgetUsage","gadgets_by_wikis.tsv")
+    write.table(gadget_by_wiki.df, file = gadget_by_wiki.path, col.names = TRUE, row.names = FALSE, quote = FALSE
+    sep = "\t")
+    
+    #Writes
+    wiki_by_gadgets.path <- file.path(getwd(),"GadgetUsage","wikis_by_gadgets.tsv")
+    write.table(gadget_by_wiki.df, file = wiki_by_gadgets.path, col.names = TRUE, row.names = FALSE, quote = FALSE
+    sep = "\t")
