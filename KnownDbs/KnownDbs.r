@@ -108,7 +108,7 @@ db_tsv_gen.fun <- function(){
   
     #Remove non-wikis
     databases.df <- databases.df[grepl(pattern = "wiki", x = databases.df$Database, ignore.case = FALSE, perl = TRUE),]
-    databases.df <- databases.df[!grepl(pattern = "(arbcom|affcom|config|board|l10n|audit|transition|commons|meta|simple|iegcom|usability|grants|foundation|checkuser|collab|chapcom|advisory|beta|old|wikimania|strategy|test|quality|labs|outreach|specieswiki|mediawikiwiki|comcom|donate|closed|chair|search|sep11|quality|office|ombudsmen|movement|nostalgia|steward|internal|incubator|quotewiki|otrs|langcom|vote|login|data|spcom)",x = databases.df$Database, ignore.case = TRUE, perl = TRUE),]
+    databases.df <- databases.df[!grepl(pattern = "(arbcom|demo|affcom|config|board|l10n|audit|transition|commons|meta|simple|iegcom|usability|grants|foundation|checkuser|collab|chapcom|advisory|beta|old|wikimania|strategy|test|quality|labs|outreach|specieswiki|mediawikiwiki|comcom|donate|closed|chair|search|sep11|quality|office|ombudsmen|movement|nostalgia|steward|internal|incubator|quotewiki|otrs|langcom|vote|login|data|spcom)",x = databases.df$Database, ignore.case = TRUE, perl = TRUE),]
   
     #Insert language code, and subsequently project type
     databases.df$Lang_Code <- gsub(pattern = "(wiki|quote|source|versity|voyage|books|news|media|species)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
