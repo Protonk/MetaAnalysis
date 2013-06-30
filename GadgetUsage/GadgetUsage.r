@@ -47,12 +47,15 @@ GadgetUsage.fun <- function(){
       query_server <- as.character(dbs.df[BatChainPuller,2])
       
       query.df <- sql.fun()
+
+      #If to take into account the wikis which are, for some reason, pre-1.16 user.user_options blob hellholes.
+      if(nrow(query.df) >= 1){
+        output_data.df <- rbind(output_data.df, query.df)
       
-      query.df$Project <- query_database
-      query.df$Project_Type <- as.character(dbs.df[BatChainPuller,4])
+        query.df$Project <- query_database
+        query.df$Project_Type <- as.character(dbs.df[BatChainPuller,4])
       
-      output_data.df <- rbind(output_data.df, query.df)
-      
+      }
       
       #Increment
       BatChainPuller <- BatChainPuller+1
