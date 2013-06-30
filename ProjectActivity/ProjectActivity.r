@@ -6,6 +6,9 @@ metaanalysis.fun <- function(){
   #Read in the dataframe of servers/projects
   servers.df <- read.delim(file.path(getwd(),"KnownDbs","Databases.tsv"), as.is = TRUE, header = TRUE)
   
+  #Subset to wikipedias
+  servers.df <- servers.df[servers.df$Project_Type == "wiki",]
+  
   #And now the fun begins.
   parse.fun <- function(){
     
@@ -13,17 +16,29 @@ metaanalysis.fun <- function(){
     PlasticFactory <- 1
     CaptainBeefheart <- TRUE
     
-    #Query function
-    retrieve.fun <- function(statement){
-  
-      query.df <- sql_wrapper(query_user = query_user,
-        query_pass = query_pass,
-        query_database = query_database,
-        query_server = query_server,
-        statement = statement) 
-    
-      return(query.df)
+    #Generalised function for querying the db
+    sql.fun <- function(){
+      
+      #Open a connection
+      con <- dbConnect(drv = "MySQL",
+                       username = query_user,
+                       password = query_pass,
+                       host = query_server,
+                       dbname = query_database)
+      
+      #Query
+      QuerySend <- dbSendQuery(con, statement = "SELECT COUNT(*) FROM recentchanges WHERE rc_user > 0 AND rc_bot = 0 GROUP BY rc_user HAVING COUNT(*) > 5;")
+      
+      #Retrieve output of query
+      output <- fetch(QuerySend, n = -1)
+      
+      #Kill connection
+      dbDisconnect(con)
+      
+      #Return output
+      return(output)
     }
+    
     #Create output dataframe.
     while.output <- data.frame()
     
@@ -34,11 +49,11 @@ metaanalysis.fun <- function(){
       ServerRow <- servers.df[PlasticFactory,]
       
       #Split out server and database name
-      query_server <- as.character(ServerRow[1])
-      query_database <- as.character(ServerRow[2])
+      query_database <- as.character(ServerRow[1])
+      query_server <- as.character(ServerRow[2])
       
       #Query to retrieve the number of users
-      query.df <- retrieve.fun(statement = "SELECT COUNT(*) FROM recentchanges WHERE rc_user > 0 AND rc_bot = 0 GROUP BY rc_user HAVING COUNT(*) > 5")
+      query.df <- sql.fun()
       
       #Prep output
       ToPrint <- as.character(nrow(query.df))
