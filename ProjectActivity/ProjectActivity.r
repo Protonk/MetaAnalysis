@@ -1,13 +1,10 @@
-metaanalysis.fun <- function(){
+project_activity.fun <- function(){
 
   #Load config file
   source(file.path(getwd(),"config.r"))
   
   #Read in the dataframe of servers/projects
   servers.df <- read.delim(file.path(getwd(),"KnownDbs","Databases.tsv"), as.is = TRUE, header = TRUE)
-  
-  #Subset to wikipedias
-  servers.df <- servers.df[servers.df$Project_Type == "wiki",]
   
   #And now the fun begins.
   parse.fun <- function(){
@@ -93,8 +90,8 @@ metaanalysis.fun <- function(){
   parse.output$Project <- paste("https://",parse.output$Project, sep = "")
   
   #Print
-  tsv_wrapper(parse.output, file = file.path(getwd(),"meta_output.tsv"))
+  tsv_wrapper(parse.output, file = file.path(getwd(),"project_data.tsv"))
 }
 
 #Run
-metaanalysis.fun()
+project_activity.fun()
