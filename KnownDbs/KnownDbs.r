@@ -1,6 +1,3 @@
-#Libraries
-library(RMySQL)
-
 db_tsv_gen.fun <- function(){
   
   #Load config
@@ -32,38 +29,14 @@ db_tsv_gen.fun <- function(){
   #Function to read in different db names
   db_read.fun <- function(){
     
-    #Generalised function for querying the db
-    sql.fun <- function(){
-      
-      #Open a connection
-      con <- dbConnect(drv = "MySQL",
-                       username = query_user,
-                       password = query_pass,
-                       host = query_server,
-                       dbname = NULL)
-      
-      #Query
-      QuerySend <- dbSendQuery(con, statement = "SHOW DATABASES;")
-      
-      #Retrieve output of query
-      output <- fetch(QuerySend, n = -1)
-      
-      #Kill connection
-      dbDisconnect(con)
-      
-      #Return output
-      return(output)
-    }
-    
-    #Create a list of server names
-    servers.ls <- list(c("s1-analytics-slave.eqiad.wmnet"),
-                       c("s2-analytics-slave.eqiad.wmnet"),
-                       c("s3-analytics-slave.eqiad.wmnet"),
-                       c("s4-analytics-slave.eqiad.wmnet"),
-                       c("s5-analytics-slave.eqiad.wmnet"),
-                       c("s6-analytics-slave.eqiad.wmnet"),
-                       c("s7-analytics-slave.eqiad.wmnet"))
-    
+    #Create a list of server dblist URLs
+    servers.ls <- list(c("http://noc.wikimedia.org/conf/s1.dblist"),
+                       c("http://noc.wikimedia.org/conf/s2.dblist"),
+                       c("http://noc.wikimedia.org/conf/s3.dblist"),
+                       c("http://noc.wikimedia.org/conf/s4.dblist"),
+                       c("http://noc.wikimedia.org/conf/s5.dblist"),
+                       c("http://noc.wikimedia.org/conf/s6.dblist"),
+                       c("http://noc.wikimedia.org/conf/s7.dblist"))
     #Create a dataframe to be filled with the output of the while loop
     databases.df <- data.frame()
     
@@ -75,13 +48,22 @@ db_tsv_gen.fun <- function(){
     while(TroutMaskReplica == FALSE){
       
       #Set the pertinent analytics slave
-      query_server <- as.character(servers.ls[IceCreamForCrow])
+      slave_name <- as.character(servers.ls[IceCreamForCrow])
       
-      #Query each analytics slave in turn, asking for a list of dbs.
-      results.df <- sql.fun()
+      #Query each analytics slave in turn, grabbing a list of dbs.
+      slave.con <- url(description = slave_name, open = "rt", blocking = TRUE, encoding = "UTF-8")
+      results.df <- as.data.frame(
+                      I(
+                        scan(file = slave.con,
+                         what = "character",
+                         nmax = -1,
+                         sep = "\n")
+                        )
+                      )
+      close(slave.con)
       
       #Add slave name
-      results.df$Slave <- query_server
+      results.df$Slave <- substring(slave_name,32,33)
       
       #Spit out into databases.df
       databases.df <- rbind(databases.df,results.df)
@@ -96,25 +78,68 @@ db_tsv_gen.fun <- function(){
     }
     
     #Return
+    colnames(databases.df)[1] <- "Database"
     return(databases.df)
   }
   
+  #Read in non-prod wikis
+  bad_read.fun <- function(){
+    
+    output.df <- data.frame()
+    
+    servers.ls <- list(c("http://noc.wikimedia.org/conf/closed.dblist"),
+                       c("http://noc.wikimedia.org/conf/deleted.dblist"),
+                       c("http://noc.wikimedia.org/conf/special.dblist"))
+    
+    MirrorMan <- FALSE
+    Tarotplane <- 1
+    Order66 <- length(servers.ls)
+    
+    while(MirrorMan == FALSE){
+      
+      list_url <- as.character(servers.ls[Tarotplane])
+      
+      slave.con <- url(description = list_url, open = "rt", blocking = TRUE, encoding = "UTF-8")
+      results.df <- as.data.frame(
+                      I(
+                        scan(file = slave.con,
+                         what = "character",
+                         nmax = -1,
+                         sep = "\n")
+                        )
+                      )
+      close(slave.con)
+      
+      output.df <- rbind(output.df,results.df)
+      
+      Tarotplane <- Tarotplane+1
+      
+      if(Tarotplane > Order66){
+        MirrorMan <- TRUE
+      }
+    }
+    
+    colnames(output.df)[1] <- "Database"
+    return(output.df)
+  }
+
   #Filter out incorrect projects and parse to generate new data
   db_filter.fun <- function(){
   
     #Run. We now have two dataframes, one containing all possible ISO codes and one containing db and server names
     databases.df <- db_read.fun()
+    exclude.df <- bad_read.fun()
     lang_codes.df <- lang_read.fun()
-  
-    #Remove non-wikis
-    databases.df <- databases.df[grepl(pattern = "wiki", x = databases.df$Database, ignore.case = FALSE, perl = TRUE),]
-    databases.df <- databases.df[!grepl(pattern = "(arbcom|demo|affcom|config|board|l10n|audit|transition|commons|meta|simple|iegcom|usability|grants|foundation|checkuser|collab|chapcom|advisory|beta|old|wikimania|strategy|test|quality|labs|outreach|specieswiki|mediawikiwiki|comcom|donate|closed|chair|search|sep11|quality|office|ombudsmen|movement|nostalgia|steward|internal|incubator|quotewiki|otrs|langcom|vote|login|data|spcom)",x = databases.df$Database, ignore.case = TRUE, perl = TRUE),]
-  
+    
+    #Exclude old/dead/private/special wikis
+    databases.df <- databases.df[!databases.df$Database %in% exclude.df$Database,]
+    
     #Insert language code, and subsequently project type
     databases.df$Lang_Code <- gsub(pattern = "(wiki|quote|source|versity|voyage|books|news|media|species)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
     databases.df$Lang_Code <- gsub(pattern = "(_)", replacement = "-", x = databases.df$Lang_Code, ignore.case = FALSE, perl = TRUE)
-    reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wiki(quote|source|versity|voyage|books|news|media|species|\\Z))", ignore.case = TRUE, perl = TRUE)
-    databases.df$Project_Type <- regmatches(databases.df$Database, m = reg_matches.vec)
+    reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wik(iquote|isource|iversity|ivoyage|ibooks|inews|imedia|ispecies|tionary|i\\Z))", ignore.case = TRUE, perl = TRUE)
+    databases.df$Project_Type <- regmatches(databases.df$Database, m = reg_matches.vec, invert = TRUE)
+    
     
     #Return
     return(databases.df)
