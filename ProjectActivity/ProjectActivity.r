@@ -9,10 +9,6 @@ project_activity.fun <- function(){
   #And now the fun begins.
   parse.fun <- function(){
     
-    #Random nonsense variables needed for the while loop
-    PlasticFactory <- 1
-    CaptainBeefheart <- TRUE
-    
     #Generalised function for querying the db
     sql.fun <- function(){
       
@@ -37,13 +33,13 @@ project_activity.fun <- function(){
     }
     
     #Create output dataframe.
-    while.output <- data.frame()
+    loop.output <- data.frame()
     
     #While loop. For each project, retrieve the number of active users in the last 30 days
-    while(CaptainBeefheart == TRUE){
+    for(i in (1:nrow(servers.df)){
       
       #Grab pertinent row
-      ServerRow <- servers.df[PlasticFactory,]
+      ServerRow <- servers.df[i,]
       
       #Split out server and database name
       query_database <- as.character(ServerRow[1])
@@ -56,22 +52,15 @@ project_activity.fun <- function(){
       ToPrint <- as.character(nrow(query.df))
       
       #Print
-      while.output[PlasticFactory,1] <- as.numeric(ToPrint)
+      loop.output[i,1] <- as.numeric(ToPrint)
       
-      #Increment PlasticFactory, run check against it
-      PlasticFactory <- PlasticFactory + 1
-      
-      #Check and break.
-      if(PlasticFactory > nrow(servers.df)){
-        CaptainBeefheart <- FALSE
-      }
     }
     
     #Bind servers across
-    while.output[,2] <- servers.df[,2]
+    loop.output[,2] <- servers.df[,2]
     
     #Output
-    return(while.output)
+    return(loop.output)
     
   }
   
