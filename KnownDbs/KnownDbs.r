@@ -119,10 +119,12 @@ db_tsv_gen.fun <- function(){
     #Exclude old/dead/private/special wikis
     databases.df <- databases.df[!databases.df$Database %in% exclude.df$Database,]
     
-    #Insert language code
+    #Insert language code, and subsequently project type
     databases.df$Lang_Code <- gsub(pattern = "(wiki|quote|source|versity|voyage|books|news|media|species)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
     databases.df$Lang_Code <- gsub(pattern = "(_)", replacement = "-", x = databases.df$Lang_Code, ignore.case = FALSE, perl = TRUE)
-
+    #reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wik(iquote|isource|iversity|ivoyage|ibooks|inews|imedia|ispecies|tionary|i\\Z))", ignore.case = TRUE, perl = TRUE)
+    #databases.df$Project_Type <- regmatches(databases.df$Database, m = reg_matches.vec, invert = TRUE)
+    
     #Return
     return(databases.df)
     
