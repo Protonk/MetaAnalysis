@@ -40,15 +40,13 @@ db_tsv_gen.fun <- function(){
     #Create a dataframe to be filled with the output of the while loop
     databases.df <- data.frame()
     
-    #Disposable objects for the while loop
-    TroutMaskReplica <- FALSE
-    IceCreamForCrow <- 1
+    #Disposable objects for the for loop
     BobKrasnow <- length(servers.ls)
     
-    while(TroutMaskReplica == FALSE){
+    for(i in (1:BobKrasnow)){
       
       #Set the pertinent analytics slave
-      slave_name <- as.character(servers.ls[IceCreamForCrow])
+      slave_name <- as.character(servers.ls[i])
       
       #Query each analytics slave in turn, grabbing a list of dbs.
       slave.con <- url(description = slave_name, open = "rt", blocking = TRUE, encoding = "UTF-8")
@@ -68,13 +66,6 @@ db_tsv_gen.fun <- function(){
       #Spit out into databases.df
       databases.df <- rbind(databases.df,results.df)
       
-      #Increment IceCreamForCrow
-      IceCreamForCrow <- IceCreamForCrow+1
-      
-      #If loop to prevent overrun
-      if(IceCreamForCrow > BobKrasnow){
-        TroutMaskReplica <- TRUE
-      }
     }
     
     #Return
@@ -92,12 +83,11 @@ db_tsv_gen.fun <- function(){
                        c("http://noc.wikimedia.org/conf/special.dblist"))
     
     MirrorMan <- FALSE
-    Tarotplane <- 1
     Order66 <- length(servers.ls)
     
-    while(MirrorMan == FALSE){
+    for(i in (1:Order66)){
       
-      list_url <- as.character(servers.ls[Tarotplane])
+      list_url <- as.character(servers.ls[i])
       
       slave.con <- url(description = list_url, open = "rt", blocking = TRUE, encoding = "UTF-8")
       results.df <- as.data.frame(
@@ -111,12 +101,7 @@ db_tsv_gen.fun <- function(){
       close(slave.con)
       
       output.df <- rbind(output.df,results.df)
-      
-      Tarotplane <- Tarotplane+1
-      
-      if(Tarotplane > Order66){
-        MirrorMan <- TRUE
-      }
+            
     }
     
     colnames(output.df)[1] <- "Database"
