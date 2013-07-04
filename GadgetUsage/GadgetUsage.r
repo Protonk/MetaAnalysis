@@ -37,13 +37,8 @@ GadgetUsage.fun <- function(){
     
     #Empty dataframe
     output_data.df <- data.frame()
-    
-    #Required variables for while loop
-    BatChainPuller <- 1
-    AshtrayHeart <- TRUE
-    RunPaintRunRun <- nrow(dbs.df)
-    
-    while(AshtrayHeart == TRUE){
+        
+    for(i in (1:nrow(dbs.df))){
       
       #Set query vars
       query_database <- as.character(dbs.df[BatChainPuller,1])
@@ -64,13 +59,6 @@ GadgetUsage.fun <- function(){
         }
       }
       
-      #Increment
-      BatChainPuller <- BatChainPuller+1
-      
-      #Control if
-      if(BatChainPuller > RunPaintRunRun){
-        AshtrayHeart <- FALSE
-      }
     }
     
     #Sanitise
