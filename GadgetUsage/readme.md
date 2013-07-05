@@ -1,4 +1,4 @@
-#MetaAnalysis
+#GadgetUsage
 _GadgetUsage_ is a script to yank data around gadgets being used on various wikimedia projects, via the user_properties table.
 
 __Author:__ Oliver Keyes<br>
