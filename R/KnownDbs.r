@@ -1,20 +1,48 @@
-db_tsv_gen.fun <- function(){
+#####
+###
+### Database stuff. 
+###
+#####
+
+#' Read Wikimedia slave servers for available databases.
+#'
+#' Grabs a list of discrete databases found on the Wikimedia cluster, filtering out non-production and special databases, and extracts and associates various forms of human-readable metadata.
+#'
+#' @param servers A list of character vectors denoting the server list.
+#' @param exclude A list of character vectors denoting non production servers
+#' @param languages A character vector of length 1 specifying the ISO-639-3 language standard
+#' @return Data frame for each of the known databases. 
+#' @import plyr
+#' @export
+
+
+knownDbs <- function(
+  servers = list(c("http://noc.wikimedia.org/conf/s1.dblist"),
+                 c("http://noc.wikimedia.org/conf/s2.dblist"),
+                 c("http://noc.wikimedia.org/conf/s3.dblist"),
+                 c("http://noc.wikimedia.org/conf/s4.dblist"),
+                 c("http://noc.wikimedia.org/conf/s5.dblist"),
+                 c("http://noc.wikimedia.org/conf/s6.dblist"),
+                 c("http://noc.wikimedia.org/conf/s7.dblist")),
+  exclude = list(c("http://noc.wikimedia.org/conf/closed.dblist"),
+                 c("http://noc.wikimedia.org/conf/deleted.dblist"),
+                 c("http://noc.wikimedia.org/conf/special.dblist"),
+                 c("http://noc.wikimedia.org/conf/private.dblist")),
+  languages = "http://www-01.sil.org/iso639-3/iso-639-3_20130531.tab"){
   
-  #Load config
-  source(file.path(getwd(),"config.r"))
-  
-  lang_read.fun <- function(){
+  lang_read.fun <- function(languages){
   
     #Grab URL of the ISO-639-3 standard, in UTF-8
-    lang.url <- "http://www-01.sil.org/iso639-3/iso-639-3_20130531.tab"
+    lang.url <- languages
   
     #Open URL, read in, close
-    lang.con <- url(description = lang.url, open = "rt", blocking = TRUE, encoding = "UTF-8")
-      lang_codes.df <- read.delim(file = lang.con,
-                                  header = TRUE, sep = "\t",
-                                  fill = TRUE, encoding = "UTF-8",
-                                  colClasses = c(rep("character",7),"NULL"),
-                                  quote = "", nrows = -1)
+    lang.con <- url(description = lang.url, open = "rt",
+                    blocking = TRUE, encoding = "UTF-8")
+    lang_codes.df <- read.delim(file = lang.con,
+                                header = TRUE, sep = "\t",
+                                fill = TRUE, encoding = "UTF-8",
+                                colClasses = c(rep("character",7),"NULL"),
+                                quote = "", nrows = -1)
     close(lang.con)
     
     #Remove an unnecessary column and limit to living and special languages,
@@ -27,16 +55,10 @@ db_tsv_gen.fun <- function(){
   }
   
   #Function to read in different db names
-  db_read.fun <- function(){
+  db_read.fun <- function(servers){
     
     #Create a list of server dblist URLs
-    servers.ls <- list(c("http://noc.wikimedia.org/conf/s1.dblist"),
-                       c("http://noc.wikimedia.org/conf/s2.dblist"),
-                       c("http://noc.wikimedia.org/conf/s3.dblist"),
-                       c("http://noc.wikimedia.org/conf/s4.dblist"),
-                       c("http://noc.wikimedia.org/conf/s5.dblist"),
-                       c("http://noc.wikimedia.org/conf/s6.dblist"),
-                       c("http://noc.wikimedia.org/conf/s7.dblist"))
+    servers.ls <- servers
     
     #Create a dataframe to be filled with the output of the while loop
     databases.df <- data.frame()
@@ -47,7 +69,8 @@ db_tsv_gen.fun <- function(){
       slave_name <- as.character(servers.ls[i])
       
       #Query each analytics slave in turn, grabbing a list of dbs.
-      slave.con <- url(description = slave_name, open = "rt", blocking = TRUE, encoding = "UTF-8")
+      slave.con <- url(description = slave_name, open = "rt",
+                       blocking = TRUE, encoding = "UTF-8")
       results.df <- as.data.frame(
                       I(
                         scan(file = slave.con,
@@ -67,7 +90,8 @@ db_tsv_gen.fun <- function(){
     }
     
     #Expand slave name
-    databases.df$Slave <- paste(databases.df$Slave,"-analytics-slave.eqiad.wmnet",sep = "")
+    databases.df$Slave <- paste0(databases.df$Slave,
+                                 "-analytics-slave.eqiad.wmnet")
     
     #Return
     colnames(databases.df)[1] <- "Database"
@@ -75,14 +99,11 @@ db_tsv_gen.fun <- function(){
   }
   
   #Read in non-prod wikis
-  bad_read.fun <- function(){
+  bad_read.fun <- function(exclude){
     
     output.df <- data.frame()
     
-    servers.ls <- list(c("http://noc.wikimedia.org/conf/closed.dblist"),
-                       c("http://noc.wikimedia.org/conf/deleted.dblist"),
-                       c("http://noc.wikimedia.org/conf/special.dblist"),
-                       c("http://noc.wikimedia.org/conf/private.dblist"))
+    servers.ls <- 
     
     MirrorMan <- FALSE
     Order66 <- length(servers.ls)
@@ -91,7 +112,8 @@ db_tsv_gen.fun <- function(){
       
       list_url <- as.character(servers.ls[i])
       
-      slave.con <- url(description = list_url, open = "rt", blocking = TRUE, encoding = "UTF-8")
+      slave.con <- url(description = list_url, open = "rt",
+                       blocking = TRUE, encoding = "UTF-8")
       results.df <- as.data.frame(
                       I(
                         scan(file = slave.con,
@@ -114,16 +136,17 @@ db_tsv_gen.fun <- function(){
   db_filter.fun <- function(){
   
     #Run. We now have two dataframes, one containing all possible ISO codes and one containing db and server names
-    databases.df <- db_read.fun()
-    exclude.df <- bad_read.fun()
-    lang_codes.df <- lang_read.fun()
+    databases.df <- db_read.fun(servers)
+    exclude.df <- bad_read.fun(exclude)
+    lang_codes.df <- lang_read.fun(languages)
     
     #Exclude old/dead/private/special wikis
     databases.df <- databases.df[!databases.df$Database %in% exclude.df$Database,]
     
     #Insert language code
     reg_pattern <- "(wiki(source|quote|versity|voyage|news|species|media|books)?|wiktionary)"
-    databases.df$Lang_Code <- gsub(pattern = reg_pattern, replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
+    databases.df$Lang_Code <- gsub(pattern = reg_pattern, replacement = "",
+                                   x = databases.df$Database, perl = TRUE)
     
     #Insert project code
     reg_matches.vec <- regexpr(text = databases.df$Database, pattern = reg_pattern, ignore.case = TRUE, perl = TRUE)
@@ -149,14 +172,5 @@ db_tsv_gen.fun <- function(){
   
   #Run
   to_output.df <- db_filter.fun()
-  
-  #Write out
-  output_file_path <- file.path(getwd(),"KnownDbs","Databases.tsv")
-  write.table(x = to_output.df, file = output_file_path,
-              col.names = TRUE, row.names = FALSE,
-              sep = "\t")
-  
+  return(to_output.df)
 }
-
-#Run
-db_tsv_gen.fun()

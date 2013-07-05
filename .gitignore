@@ -1,2 +1,3 @@
 *.Rhistory
 *config.r
+.Rproj.user

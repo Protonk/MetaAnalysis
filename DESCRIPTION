@@ -1,0 +1,22 @@
+Package: metaanalysis
+Authors@R: c(
+    person("Oliver", "Keyes",
+    email = "okeyes@wikimedia.org", role = c("aut", "cre")))
+Author: Oliver Keyes
+Version: 0.1
+License: MIT
+Title: Tools for getting data from multiple, rather than individual, Wikimedia
+    projects
+Description: etaAnalysis is a set of R scripts that can be run over the
+    Wikimedia servers. Rather than being aimed at deep analysis of a single
+    project, it provides a shallow overview of many projects simultaneously.
+Depends:
+    R (>= 2.14)
+Imports:
+    plyr,
+    RMySQL
+Collate:
+    'datasets.R'
+    'GadgetUsage.r'
+    'KnownDbs.r'
+    'ProjectActivity.r'
