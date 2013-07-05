@@ -1,7 +1,7 @@
 #MetaAnalysis
-_KnownDbs_ grabs a list of databases found on the Wikimedia analytics slaves.
+_KnownDbs_ grabs a list of discrete databases found on the Wikimedia cluster, filtering out non-production and special databases, and extracts and associates various forms of human-readable metadata.
 
-__Authors:__ Oliver Keyes<br> Yuvi Panda
+__Authors:__ Oliver Keyes, Yuvi Panda<br>
 __License:__ [MIT](http://opensource.org/licenses/MIT)<br>
 __Status:__ Stable
 
@@ -12,4 +12,4 @@ The folder contains two files:
 * _Databases.tsv_ is the output, and consists of a TSV containing the database name, the pertinent analytics slave, the language code for that database, the type of project (wikiquote, wikisource, etc), and, when available, an ISO-639-3-compatible human-readable name.
 
 ##Credit
-@yuvipanda for making the regexes finally work, @Ironholds for everything else
+[Yuvipanda](https://github.com/yuvipanda) for making the regexes finally work, [Ironholds](https://github.com/Ironholds) for everything else
