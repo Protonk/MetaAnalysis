@@ -61,7 +61,7 @@ db_tsv_gen.fun <- function(){
       close(slave.con)
       
       #Add slave name
-      results.df$Slave <- substring(slave_name,32,33)
+      results.df$Slave <- substring(slave_name,31,32)
       
       #Spit out into databases.df
       databases.df <- rbind(databases.df,results.df)
