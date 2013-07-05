@@ -68,6 +68,9 @@ db_tsv_gen.fun <- function(){
       
     }
     
+    #Expand slave name
+    databases.df$Slave <- paste(databases.df$Slave,"-analytics-slave.eqiad.wmnet",sep = "")
+    
     #Return
     colnames(databases.df)[1] <- "Database"
     return(databases.df)
