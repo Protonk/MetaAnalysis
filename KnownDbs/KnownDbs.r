@@ -37,13 +37,11 @@ db_tsv_gen.fun <- function(){
                        c("http://noc.wikimedia.org/conf/s5.dblist"),
                        c("http://noc.wikimedia.org/conf/s6.dblist"),
                        c("http://noc.wikimedia.org/conf/s7.dblist"))
+    
     #Create a dataframe to be filled with the output of the while loop
     databases.df <- data.frame()
     
-    #Disposable objects for the for loop
-    BobKrasnow <- length(servers.ls)
-    
-    for(i in (1:BobKrasnow)){
+    for(i in (1:length(servers.ls))){
       
       #Set the pertinent analytics slave
       slave_name <- as.character(servers.ls[i])
