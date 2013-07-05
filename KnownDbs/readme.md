@@ -1,4 +1,4 @@
-#MetaAnalysis
+#KnownDbs
 _KnownDbs_ grabs a list of discrete databases found on the Wikimedia cluster, filtering out non-production and special databases, and extracts and associates various forms of human-readable metadata.
 
 __Authors:__ Oliver Keyes, Yuvi Panda<br>
