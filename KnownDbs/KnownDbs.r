@@ -81,7 +81,7 @@ db_tsv_gen.fun <- function(){
     servers.ls <- list(c("http://noc.wikimedia.org/conf/closed.dblist"),
                        c("http://noc.wikimedia.org/conf/deleted.dblist"),
                        c("http://noc.wikimedia.org/conf/special.dblist"),
-                       c("https://noc.wikimedia.org/conf/private.dblist"))
+                       c("http://noc.wikimedia.org/conf/private.dblist"))
     
     MirrorMan <- FALSE
     Order66 <- length(servers.ls)
@@ -121,11 +121,12 @@ db_tsv_gen.fun <- function(){
     databases.df <- databases.df[!databases.df$Database %in% exclude.df$Database,]
     
     #Insert language code
-    databases.df$Lang_Code <- gsub(pattern = "(wiki(source|quote|versity|voyage|news|species|media|books)?|wiktionary)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
+    reg_pattern <- "(wiki(source|quote|versity|voyage|news|species|media|books)?|wiktionary)"
+    databases.df$Lang_Code <- gsub(pattern = reg_pattern, replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
     
-    
-    #reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wiki(quote|source|versity|voyage|books|news|media|species|tionary|\\Z))", ignore.case = TRUE, perl = TRUE)
-    #databases.df$Project_Type <- regmatches(databases.df$Database, m = reg_matches.vec, invert = TRUE)
+    #Insert project code
+    reg_matches.vec <- regexpr(text = databases.df$Database, pattern = reg_pattern, ignore.case = TRUE, perl = TRUE)
+    databases.df$Project_Type <- unlist(regmatches(databases.df$Database, m = reg_matches.vec, invert = FALSE))
     
     #Match human-readable names
     databases.df$Lang_Name <- NA
@@ -136,7 +137,7 @@ db_tsv_gen.fun <- function(){
       match <- grep(pattern = to.run, x = lang_codes.df$Id)
       
       if(length(match) > 0){
-        databases.df[i,4] <- lang_codes.df[match,6]
+        databases.df[i,5] <- lang_codes.df[match,6]
       }
     }
         
@@ -157,4 +158,4 @@ db_tsv_gen.fun <- function(){
 }
 
 #Run
-db_tsv_gen.fun()  
+db_tsv_gen.fun()
