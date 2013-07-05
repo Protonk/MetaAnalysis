@@ -1,669 +1,708 @@
-Database	Slave	Lang_Code	Project_Type
-enwiki	s1-analytics-slave.eqiad.wmnet	en	wiki
-bgwiki	s2-analytics-slave.eqiad.wmnet	bg	wiki
-cswiki	s2-analytics-slave.eqiad.wmnet	cs	wiki
-enwikiquote	s2-analytics-slave.eqiad.wmnet	en	wikiquote
-eowiki	s2-analytics-slave.eqiad.wmnet	eo	wiki
-fiwiki	s2-analytics-slave.eqiad.wmnet	fi	wiki
-idwiki	s2-analytics-slave.eqiad.wmnet	id	wiki
-itwiki	s2-analytics-slave.eqiad.wmnet	it	wiki
-nlwiki	s2-analytics-slave.eqiad.wmnet	nl	wiki
-nowiki	s2-analytics-slave.eqiad.wmnet	no	wiki
-plwiki	s2-analytics-slave.eqiad.wmnet	pl	wiki
-ptwiki	s2-analytics-slave.eqiad.wmnet	pt	wiki
-svwiki	s2-analytics-slave.eqiad.wmnet	sv	wiki
-thwiki	s2-analytics-slave.eqiad.wmnet	th	wiki
-trwiki	s2-analytics-slave.eqiad.wmnet	tr	wiki
-zhwiki	s2-analytics-slave.eqiad.wmnet	zh	wiki
-aawiki	s3-analytics-slave.eqiad.wmnet	aa	wiki
-aawikibooks	s3-analytics-slave.eqiad.wmnet	aa	wikibooks
-abwiki	s3-analytics-slave.eqiad.wmnet	ab	wiki
-acewiki	s3-analytics-slave.eqiad.wmnet	ace	wiki
-afwiki	s3-analytics-slave.eqiad.wmnet	af	wiki
-afwikibooks	s3-analytics-slave.eqiad.wmnet	af	wikibooks
-afwikiquote	s3-analytics-slave.eqiad.wmnet	af	wikiquote
-akwiki	s3-analytics-slave.eqiad.wmnet	ak	wiki
-akwikibooks	s3-analytics-slave.eqiad.wmnet	ak	wikibooks
-alswiki	s3-analytics-slave.eqiad.wmnet	als	wiki
-alswikibooks	s3-analytics-slave.eqiad.wmnet	als	wikibooks
-alswikiquote	s3-analytics-slave.eqiad.wmnet	als	wikiquote
-amwiki	s3-analytics-slave.eqiad.wmnet	am	wiki
-amwikiquote	s3-analytics-slave.eqiad.wmnet	am	wikiquote
-angwiki	s3-analytics-slave.eqiad.wmnet	ang	wiki
-angwikibooks	s3-analytics-slave.eqiad.wmnet	ang	wikibooks
-angwikiquote	s3-analytics-slave.eqiad.wmnet	ang	wikiquote
-angwikisource	s3-analytics-slave.eqiad.wmnet	ang	wikisource
-anwiki	s3-analytics-slave.eqiad.wmnet	an	wiki
-arcwiki	s3-analytics-slave.eqiad.wmnet	arc	wiki
-arwiki	s3-analytics-slave.eqiad.wmnet	ar	wiki
-arwikibooks	s3-analytics-slave.eqiad.wmnet	ar	wikibooks
-arwikimedia	s3-analytics-slave.eqiad.wmnet	ar	wikimedia
-arwikinews	s3-analytics-slave.eqiad.wmnet	ar	wikinews
-arwikiquote	s3-analytics-slave.eqiad.wmnet	ar	wikiquote
-arwikisource	s3-analytics-slave.eqiad.wmnet	ar	wikisource
-arwikiversity	s3-analytics-slave.eqiad.wmnet	ar	wikiversity
-arzwiki	s3-analytics-slave.eqiad.wmnet	arz	wiki
-astwiki	s3-analytics-slave.eqiad.wmnet	ast	wiki
-astwikibooks	s3-analytics-slave.eqiad.wmnet	ast	wikibooks
-astwikiquote	s3-analytics-slave.eqiad.wmnet	ast	wikiquote
-aswiki	s3-analytics-slave.eqiad.wmnet	as	wiki
-aswikibooks	s3-analytics-slave.eqiad.wmnet	as	wikibooks
-aswikisource	s3-analytics-slave.eqiad.wmnet	as	wikisource
-avwiki	s3-analytics-slave.eqiad.wmnet	av	wiki
-aywiki	s3-analytics-slave.eqiad.wmnet	ay	wiki
-aywikibooks	s3-analytics-slave.eqiad.wmnet	ay	wikibooks
-azwiki	s3-analytics-slave.eqiad.wmnet	az	wiki
-azwikibooks	s3-analytics-slave.eqiad.wmnet	az	wikibooks
-azwikiquote	s3-analytics-slave.eqiad.wmnet	az	wikiquote
-azwikisource	s3-analytics-slave.eqiad.wmnet	az	wikisource
-barwiki	s3-analytics-slave.eqiad.wmnet	bar	wiki
-bat_smgwiki	s3-analytics-slave.eqiad.wmnet	bat-smg	wiki
-bawiki	s3-analytics-slave.eqiad.wmnet	ba	wiki
-bawikibooks	s3-analytics-slave.eqiad.wmnet	ba	wikibooks
-bclwiki	s3-analytics-slave.eqiad.wmnet	bcl	wiki
-bdwikimedia	s3-analytics-slave.eqiad.wmnet	bd	wikimedia
-bewiki	s3-analytics-slave.eqiad.wmnet	be	wiki
-bewikibooks	s3-analytics-slave.eqiad.wmnet	be	wikibooks
-bewikimedia	s3-analytics-slave.eqiad.wmnet	be	wikimedia
-bewikiquote	s3-analytics-slave.eqiad.wmnet	be	wikiquote
-bewikisource	s3-analytics-slave.eqiad.wmnet	be	wikisource
-bgwikibooks	s3-analytics-slave.eqiad.wmnet	bg	wikibooks
-bgwikinews	s3-analytics-slave.eqiad.wmnet	bg	wikinews
-bgwikiquote	s3-analytics-slave.eqiad.wmnet	bg	wikiquote
-bgwikisource	s3-analytics-slave.eqiad.wmnet	bg	wikisource
-bhwiki	s3-analytics-slave.eqiad.wmnet	bh	wiki
-biwiki	s3-analytics-slave.eqiad.wmnet	bi	wiki
-biwikibooks	s3-analytics-slave.eqiad.wmnet	bi	wikibooks
-bjnwiki	s3-analytics-slave.eqiad.wmnet	bjn	wiki
-bmwiki	s3-analytics-slave.eqiad.wmnet	bm	wiki
-bmwikibooks	s3-analytics-slave.eqiad.wmnet	bm	wikibooks
-bmwikiquote	s3-analytics-slave.eqiad.wmnet	bm	wikiquote
-bnwiki	s3-analytics-slave.eqiad.wmnet	bn	wiki
-bnwikibooks	s3-analytics-slave.eqiad.wmnet	bn	wikibooks
-bnwikisource	s3-analytics-slave.eqiad.wmnet	bn	wikisource
-bowiki	s3-analytics-slave.eqiad.wmnet	bo	wiki
-bowikibooks	s3-analytics-slave.eqiad.wmnet	bo	wikibooks
-bpywiki	s3-analytics-slave.eqiad.wmnet	bpy	wiki
-brwiki	s3-analytics-slave.eqiad.wmnet	br	wiki
-brwikimedia	s3-analytics-slave.eqiad.wmnet	br	wikimedia
-brwikiquote	s3-analytics-slave.eqiad.wmnet	br	wikiquote
-brwikisource	s3-analytics-slave.eqiad.wmnet	br	wikisource
-bswiki	s3-analytics-slave.eqiad.wmnet	bs	wiki
-bswikibooks	s3-analytics-slave.eqiad.wmnet	bs	wikibooks
-bswikinews	s3-analytics-slave.eqiad.wmnet	bs	wikinews
-bswikiquote	s3-analytics-slave.eqiad.wmnet	bs	wikiquote
-bswikisource	s3-analytics-slave.eqiad.wmnet	bs	wikisource
-bugwiki	s3-analytics-slave.eqiad.wmnet	bug	wiki
-bxrwiki	s3-analytics-slave.eqiad.wmnet	bxr	wiki
-cawiki	s3-analytics-slave.eqiad.wmnet	ca	wiki
-cawikibooks	s3-analytics-slave.eqiad.wmnet	ca	wikibooks
-cawikinews	s3-analytics-slave.eqiad.wmnet	ca	wikinews
-cawikiquote	s3-analytics-slave.eqiad.wmnet	ca	wikiquote
-cawikisource	s3-analytics-slave.eqiad.wmnet	ca	wikisource
-cbk_zamwiki	s3-analytics-slave.eqiad.wmnet	cbk-zam	wiki
-cdowiki	s3-analytics-slave.eqiad.wmnet	cdo	wiki
-cebwiki	s3-analytics-slave.eqiad.wmnet	ceb	wiki
-cewiki	s3-analytics-slave.eqiad.wmnet	ce	wiki
-chowiki	s3-analytics-slave.eqiad.wmnet	cho	wiki
-chrwiki	s3-analytics-slave.eqiad.wmnet	chr	wiki
-chwiki	s3-analytics-slave.eqiad.wmnet	ch	wiki
-chwikibooks	s3-analytics-slave.eqiad.wmnet	ch	wikibooks
-chwikimedia	s3-analytics-slave.eqiad.wmnet	ch	wikimedia
-chywiki	s3-analytics-slave.eqiad.wmnet	chy	wiki
-ckbwiki	s3-analytics-slave.eqiad.wmnet	ckb	wiki
-cowiki	s3-analytics-slave.eqiad.wmnet	co	wiki
-cowikibooks	s3-analytics-slave.eqiad.wmnet	co	wikibooks
-cowikimedia	s3-analytics-slave.eqiad.wmnet	co	wikimedia
-cowikiquote	s3-analytics-slave.eqiad.wmnet	co	wikiquote
-crhwiki	s3-analytics-slave.eqiad.wmnet	crh	wiki
-crwiki	s3-analytics-slave.eqiad.wmnet	cr	wiki
-crwikiquote	s3-analytics-slave.eqiad.wmnet	cr	wikiquote
-csbwiki	s3-analytics-slave.eqiad.wmnet	csb	wiki
-cswikibooks	s3-analytics-slave.eqiad.wmnet	cs	wikibooks
-cswikinews	s3-analytics-slave.eqiad.wmnet	cs	wikinews
-cswikiquote	s3-analytics-slave.eqiad.wmnet	cs	wikiquote
-cswikisource	s3-analytics-slave.eqiad.wmnet	cs	wikisource
-cswikiversity	s3-analytics-slave.eqiad.wmnet	cs	wikiversity
-cuwiki	s3-analytics-slave.eqiad.wmnet	cu	wiki
-cvwiki	s3-analytics-slave.eqiad.wmnet	cv	wiki
-cvwikibooks	s3-analytics-slave.eqiad.wmnet	cv	wikibooks
-cywiki	s3-analytics-slave.eqiad.wmnet	cy	wiki
-cywikibooks	s3-analytics-slave.eqiad.wmnet	cy	wikibooks
-cywikiquote	s3-analytics-slave.eqiad.wmnet	cy	wikiquote
-cywikisource	s3-analytics-slave.eqiad.wmnet	cy	wikisource
-dawiki	s3-analytics-slave.eqiad.wmnet	da	wiki
-dawikibooks	s3-analytics-slave.eqiad.wmnet	da	wikibooks
-dawikiquote	s3-analytics-slave.eqiad.wmnet	da	wikiquote
-dawikisource	s3-analytics-slave.eqiad.wmnet	da	wikisource
-dewikibooks	s3-analytics-slave.eqiad.wmnet	de	wikibooks
-dewikinews	s3-analytics-slave.eqiad.wmnet	de	wikinews
-dewikiquote	s3-analytics-slave.eqiad.wmnet	de	wikiquote
-dewikisource	s3-analytics-slave.eqiad.wmnet	de	wikisource
-dewikiversity	s3-analytics-slave.eqiad.wmnet	de	wikiversity
-dewikivoyage	s3-analytics-slave.eqiad.wmnet	de	wikivoyage
-diqwiki	s3-analytics-slave.eqiad.wmnet	diq	wiki
-dkwiki	s3-analytics-slave.eqiad.wmnet	dk	wiki
-dkwikibooks	s3-analytics-slave.eqiad.wmnet	dk	wikibooks
-dkwikimedia	s3-analytics-slave.eqiad.wmnet	dk	wikimedia
-dsbwiki	s3-analytics-slave.eqiad.wmnet	dsb	wiki
-dvwiki	s3-analytics-slave.eqiad.wmnet	dv	wiki
-dzwiki	s3-analytics-slave.eqiad.wmnet	dz	wiki
-eewiki	s3-analytics-slave.eqiad.wmnet	ee	wiki
-elwiki	s3-analytics-slave.eqiad.wmnet	el	wiki
-elwikibooks	s3-analytics-slave.eqiad.wmnet	el	wikibooks
-elwikinews	s3-analytics-slave.eqiad.wmnet	el	wikinews
-elwikiquote	s3-analytics-slave.eqiad.wmnet	el	wikiquote
-elwikisource	s3-analytics-slave.eqiad.wmnet	el	wikisource
-elwikiversity	s3-analytics-slave.eqiad.wmnet	el	wikiversity
-elwikivoyage	s3-analytics-slave.eqiad.wmnet	el	wikivoyage
-emlwiki	s3-analytics-slave.eqiad.wmnet	eml	wiki
-enwikibooks	s3-analytics-slave.eqiad.wmnet	en	wikibooks
-enwikinews	s3-analytics-slave.eqiad.wmnet	en	wikinews
-enwikisource	s3-analytics-slave.eqiad.wmnet	en	wikisource
-enwikiversity	s3-analytics-slave.eqiad.wmnet	en	wikiversity
-enwikivoyage	s3-analytics-slave.eqiad.wmnet	en	wikivoyage
-eowikibooks	s3-analytics-slave.eqiad.wmnet	eo	wikibooks
-eowikinews	s3-analytics-slave.eqiad.wmnet	eo	wikinews
-eowikiquote	s3-analytics-slave.eqiad.wmnet	eo	wikiquote
-eowikisource	s3-analytics-slave.eqiad.wmnet	eo	wikisource
-eswiki	s3-analytics-slave.eqiad.wmnet	es	wiki
-eswikibooks	s3-analytics-slave.eqiad.wmnet	es	wikibooks
-eswikinews	s3-analytics-slave.eqiad.wmnet	es	wikinews
-eswikiquote	s3-analytics-slave.eqiad.wmnet	es	wikiquote
-eswikisource	s3-analytics-slave.eqiad.wmnet	es	wikisource
-eswikiversity	s3-analytics-slave.eqiad.wmnet	es	wikiversity
-eswikivoyage	s3-analytics-slave.eqiad.wmnet	es	wikivoyage
-etwiki	s3-analytics-slave.eqiad.wmnet	et	wiki
-etwikibooks	s3-analytics-slave.eqiad.wmnet	et	wikibooks
-etwikimedia	s3-analytics-slave.eqiad.wmnet	et	wikimedia
-etwikiquote	s3-analytics-slave.eqiad.wmnet	et	wikiquote
-etwikisource	s3-analytics-slave.eqiad.wmnet	et	wikisource
-euwiki	s3-analytics-slave.eqiad.wmnet	eu	wiki
-euwikibooks	s3-analytics-slave.eqiad.wmnet	eu	wikibooks
-euwikiquote	s3-analytics-slave.eqiad.wmnet	eu	wikiquote
-execwiki	s3-analytics-slave.eqiad.wmnet	exec	wiki
-extwiki	s3-analytics-slave.eqiad.wmnet	ext	wiki
-fawiki	s3-analytics-slave.eqiad.wmnet	fa	wiki
-fawikibooks	s3-analytics-slave.eqiad.wmnet	fa	wikibooks
-fawikinews	s3-analytics-slave.eqiad.wmnet	fa	wikinews
-fawikiquote	s3-analytics-slave.eqiad.wmnet	fa	wikiquote
-fawikisource	s3-analytics-slave.eqiad.wmnet	fa	wikisource
-fdcwiki	s3-analytics-slave.eqiad.wmnet	fdc	wiki
-ffwiki	s3-analytics-slave.eqiad.wmnet	ff	wiki
-fiu_vrowiki	s3-analytics-slave.eqiad.wmnet	fiu-vro	wiki
-fiwikibooks	s3-analytics-slave.eqiad.wmnet	fi	wikibooks
-fiwikimedia	s3-analytics-slave.eqiad.wmnet	fi	wikimedia
-fiwikinews	s3-analytics-slave.eqiad.wmnet	fi	wikinews
-fiwikiquote	s3-analytics-slave.eqiad.wmnet	fi	wikiquote
-fiwikisource	s3-analytics-slave.eqiad.wmnet	fi	wikisource
-fiwikiversity	s3-analytics-slave.eqiad.wmnet	fi	wikiversity
-fjwiki	s3-analytics-slave.eqiad.wmnet	fj	wiki
-fowiki	s3-analytics-slave.eqiad.wmnet	fo	wiki
-fowikisource	s3-analytics-slave.eqiad.wmnet	fo	wikisource
-frpwiki	s3-analytics-slave.eqiad.wmnet	frp	wiki
-frrwiki	s3-analytics-slave.eqiad.wmnet	frr	wiki
-frwikibooks	s3-analytics-slave.eqiad.wmnet	fr	wikibooks
-frwikinews	s3-analytics-slave.eqiad.wmnet	fr	wikinews
-frwikiquote	s3-analytics-slave.eqiad.wmnet	fr	wikiquote
-frwikisource	s3-analytics-slave.eqiad.wmnet	fr	wikisource
-frwikiversity	s3-analytics-slave.eqiad.wmnet	fr	wikiversity
-frwikivoyage	s3-analytics-slave.eqiad.wmnet	fr	wikivoyage
-furwiki	s3-analytics-slave.eqiad.wmnet	fur	wiki
-fywiki	s3-analytics-slave.eqiad.wmnet	fy	wiki
-fywikibooks	s3-analytics-slave.eqiad.wmnet	fy	wikibooks
-gagwiki	s3-analytics-slave.eqiad.wmnet	gag	wiki
-ganwiki	s3-analytics-slave.eqiad.wmnet	gan	wiki
-gawiki	s3-analytics-slave.eqiad.wmnet	ga	wiki
-gawikibooks	s3-analytics-slave.eqiad.wmnet	ga	wikibooks
-gawikiquote	s3-analytics-slave.eqiad.wmnet	ga	wikiquote
-gdwiki	s3-analytics-slave.eqiad.wmnet	gd	wiki
-glkwiki	s3-analytics-slave.eqiad.wmnet	glk	wiki
-glwiki	s3-analytics-slave.eqiad.wmnet	gl	wiki
-glwikibooks	s3-analytics-slave.eqiad.wmnet	gl	wikibooks
-glwikiquote	s3-analytics-slave.eqiad.wmnet	gl	wikiquote
-glwikisource	s3-analytics-slave.eqiad.wmnet	gl	wikisource
-gnwiki	s3-analytics-slave.eqiad.wmnet	gn	wiki
-gnwikibooks	s3-analytics-slave.eqiad.wmnet	gn	wikibooks
-gotwiki	s3-analytics-slave.eqiad.wmnet	got	wiki
-gotwikibooks	s3-analytics-slave.eqiad.wmnet	got	wikibooks
-guwiki	s3-analytics-slave.eqiad.wmnet	gu	wiki
-guwikibooks	s3-analytics-slave.eqiad.wmnet	gu	wikibooks
-guwikiquote	s3-analytics-slave.eqiad.wmnet	gu	wikiquote
-guwikisource	s3-analytics-slave.eqiad.wmnet	gu	wikisource
-gvwiki	s3-analytics-slave.eqiad.wmnet	gv	wiki
-hakwiki	s3-analytics-slave.eqiad.wmnet	hak	wiki
-hawiki	s3-analytics-slave.eqiad.wmnet	ha	wiki
-hawwiki	s3-analytics-slave.eqiad.wmnet	haw	wiki
-hewiki	s3-analytics-slave.eqiad.wmnet	he	wiki
-hewikibooks	s3-analytics-slave.eqiad.wmnet	he	wikibooks
-hewikinews	s3-analytics-slave.eqiad.wmnet	he	wikinews
-hewikiquote	s3-analytics-slave.eqiad.wmnet	he	wikiquote
-hewikisource	s3-analytics-slave.eqiad.wmnet	he	wikisource
-hewikivoyage	s3-analytics-slave.eqiad.wmnet	he	wikivoyage
-hifwiki	s3-analytics-slave.eqiad.wmnet	hif	wiki
-hiwiki	s3-analytics-slave.eqiad.wmnet	hi	wiki
-hiwikibooks	s3-analytics-slave.eqiad.wmnet	hi	wikibooks
-hiwikiquote	s3-analytics-slave.eqiad.wmnet	hi	wikiquote
-howiki	s3-analytics-slave.eqiad.wmnet	ho	wiki
-hrwiki	s3-analytics-slave.eqiad.wmnet	hr	wiki
-hrwikibooks	s3-analytics-slave.eqiad.wmnet	hr	wikibooks
-hrwikiquote	s3-analytics-slave.eqiad.wmnet	hr	wikiquote
-hrwikisource	s3-analytics-slave.eqiad.wmnet	hr	wikisource
-hsbwiki	s3-analytics-slave.eqiad.wmnet	hsb	wiki
-htwiki	s3-analytics-slave.eqiad.wmnet	ht	wiki
-htwikisource	s3-analytics-slave.eqiad.wmnet	ht	wikisource
-huwiki	s3-analytics-slave.eqiad.wmnet	hu	wiki
-huwikibooks	s3-analytics-slave.eqiad.wmnet	hu	wikibooks
-huwikinews	s3-analytics-slave.eqiad.wmnet	hu	wikinews
-huwikiquote	s3-analytics-slave.eqiad.wmnet	hu	wikiquote
-huwikisource	s3-analytics-slave.eqiad.wmnet	hu	wikisource
-hywiki	s3-analytics-slave.eqiad.wmnet	hy	wiki
-hywikibooks	s3-analytics-slave.eqiad.wmnet	hy	wikibooks
-hywikiquote	s3-analytics-slave.eqiad.wmnet	hy	wikiquote
-hywikisource	s3-analytics-slave.eqiad.wmnet	hy	wikisource
-hzwiki	s3-analytics-slave.eqiad.wmnet	hz	wiki
-iawiki	s3-analytics-slave.eqiad.wmnet	ia	wiki
-iawikibooks	s3-analytics-slave.eqiad.wmnet	ia	wikibooks
-idwikibooks	s3-analytics-slave.eqiad.wmnet	id	wikibooks
-idwikiquote	s3-analytics-slave.eqiad.wmnet	id	wikiquote
-idwikisource	s3-analytics-slave.eqiad.wmnet	id	wikisource
-iewiki	s3-analytics-slave.eqiad.wmnet	ie	wiki
-iewikibooks	s3-analytics-slave.eqiad.wmnet	ie	wikibooks
-igwiki	s3-analytics-slave.eqiad.wmnet	ig	wiki
-iiwiki	s3-analytics-slave.eqiad.wmnet	ii	wiki
-ikwiki	s3-analytics-slave.eqiad.wmnet	ik	wiki
-ilowiki	s3-analytics-slave.eqiad.wmnet	ilo	wiki
-ilwikimedia	s3-analytics-slave.eqiad.wmnet	il	wikimedia
-iowiki	s3-analytics-slave.eqiad.wmnet	io	wiki
-iswiki	s3-analytics-slave.eqiad.wmnet	is	wiki
-iswikibooks	s3-analytics-slave.eqiad.wmnet	is	wikibooks
-iswikiquote	s3-analytics-slave.eqiad.wmnet	is	wikiquote
-iswikisource	s3-analytics-slave.eqiad.wmnet	is	wikisource
-itwikibooks	s3-analytics-slave.eqiad.wmnet	it	wikibooks
-itwikinews	s3-analytics-slave.eqiad.wmnet	it	wikinews
-itwikiquote	s3-analytics-slave.eqiad.wmnet	it	wikiquote
-itwikisource	s3-analytics-slave.eqiad.wmnet	it	wikisource
-itwikiversity	s3-analytics-slave.eqiad.wmnet	it	wikiversity
-itwikivoyage	s3-analytics-slave.eqiad.wmnet	it	wikivoyage
-iuwiki	s3-analytics-slave.eqiad.wmnet	iu	wiki
-jawikibooks	s3-analytics-slave.eqiad.wmnet	ja	wikibooks
-jawikinews	s3-analytics-slave.eqiad.wmnet	ja	wikinews
-jawikiquote	s3-analytics-slave.eqiad.wmnet	ja	wikiquote
-jawikisource	s3-analytics-slave.eqiad.wmnet	ja	wikisource
-jawikiversity	s3-analytics-slave.eqiad.wmnet	ja	wikiversity
-jbowiki	s3-analytics-slave.eqiad.wmnet	jbo	wiki
-jvwiki	s3-analytics-slave.eqiad.wmnet	jv	wiki
-kaawiki	s3-analytics-slave.eqiad.wmnet	kaa	wiki
-kabwiki	s3-analytics-slave.eqiad.wmnet	kab	wiki
-kawiki	s3-analytics-slave.eqiad.wmnet	ka	wiki
-kawikibooks	s3-analytics-slave.eqiad.wmnet	ka	wikibooks
-kawikiquote	s3-analytics-slave.eqiad.wmnet	ka	wikiquote
-kbdwiki	s3-analytics-slave.eqiad.wmnet	kbd	wiki
-kgwiki	s3-analytics-slave.eqiad.wmnet	kg	wiki
-kiwiki	s3-analytics-slave.eqiad.wmnet	ki	wiki
-kjwiki	s3-analytics-slave.eqiad.wmnet	kj	wiki
-kkwiki	s3-analytics-slave.eqiad.wmnet	kk	wiki
-kkwikibooks	s3-analytics-slave.eqiad.wmnet	kk	wikibooks
-kkwikiquote	s3-analytics-slave.eqiad.wmnet	kk	wikiquote
-klwiki	s3-analytics-slave.eqiad.wmnet	kl	wiki
-kmwiki	s3-analytics-slave.eqiad.wmnet	km	wiki
-kmwikibooks	s3-analytics-slave.eqiad.wmnet	km	wikibooks
-knwiki	s3-analytics-slave.eqiad.wmnet	kn	wiki
-knwikibooks	s3-analytics-slave.eqiad.wmnet	kn	wikibooks
-knwikiquote	s3-analytics-slave.eqiad.wmnet	kn	wikiquote
-knwikisource	s3-analytics-slave.eqiad.wmnet	kn	wikisource
-koiwiki	s3-analytics-slave.eqiad.wmnet	koi	wiki
-kowiki	s3-analytics-slave.eqiad.wmnet	ko	wiki
-kowikibooks	s3-analytics-slave.eqiad.wmnet	ko	wikibooks
-kowikinews	s3-analytics-slave.eqiad.wmnet	ko	wikinews
-kowikiquote	s3-analytics-slave.eqiad.wmnet	ko	wikiquote
-kowikisource	s3-analytics-slave.eqiad.wmnet	ko	wikisource
-kowikiversity	s3-analytics-slave.eqiad.wmnet	ko	wikiversity
-krcwiki	s3-analytics-slave.eqiad.wmnet	krc	wiki
-krwiki	s3-analytics-slave.eqiad.wmnet	kr	wiki
-krwikiquote	s3-analytics-slave.eqiad.wmnet	kr	wikiquote
-kshwiki	s3-analytics-slave.eqiad.wmnet	ksh	wiki
-kswiki	s3-analytics-slave.eqiad.wmnet	ks	wiki
-kswikibooks	s3-analytics-slave.eqiad.wmnet	ks	wikibooks
-kswikiquote	s3-analytics-slave.eqiad.wmnet	ks	wikiquote
-kuwiki	s3-analytics-slave.eqiad.wmnet	ku	wiki
-kuwikibooks	s3-analytics-slave.eqiad.wmnet	ku	wikibooks
-kuwikiquote	s3-analytics-slave.eqiad.wmnet	ku	wikiquote
-kvwiki	s3-analytics-slave.eqiad.wmnet	kv	wiki
-kwwiki	s3-analytics-slave.eqiad.wmnet	kw	wiki
-kwwikiquote	s3-analytics-slave.eqiad.wmnet	kw	wikiquote
-kywiki	s3-analytics-slave.eqiad.wmnet	ky	wiki
-kywikibooks	s3-analytics-slave.eqiad.wmnet	ky	wikibooks
-kywikiquote	s3-analytics-slave.eqiad.wmnet	ky	wikiquote
-ladwiki	s3-analytics-slave.eqiad.wmnet	lad	wiki
-lawiki	s3-analytics-slave.eqiad.wmnet	la	wiki
-lawikibooks	s3-analytics-slave.eqiad.wmnet	la	wikibooks
-lawikiquote	s3-analytics-slave.eqiad.wmnet	la	wikiquote
-lawikisource	s3-analytics-slave.eqiad.wmnet	la	wikisource
-lbewiki	s3-analytics-slave.eqiad.wmnet	lbe	wiki
-lbwiki	s3-analytics-slave.eqiad.wmnet	lb	wiki
-lbwikibooks	s3-analytics-slave.eqiad.wmnet	lb	wikibooks
-lbwikiquote	s3-analytics-slave.eqiad.wmnet	lb	wikiquote
-lezwiki	s3-analytics-slave.eqiad.wmnet	lez	wiki
-lgwiki	s3-analytics-slave.eqiad.wmnet	lg	wiki
-lijwiki	s3-analytics-slave.eqiad.wmnet	lij	wiki
-liwiki	s3-analytics-slave.eqiad.wmnet	li	wiki
-liwikibooks	s3-analytics-slave.eqiad.wmnet	li	wikibooks
-liwikiquote	s3-analytics-slave.eqiad.wmnet	li	wikiquote
-liwikisource	s3-analytics-slave.eqiad.wmnet	li	wikisource
-lmowiki	s3-analytics-slave.eqiad.wmnet	lmo	wiki
-lnwiki	s3-analytics-slave.eqiad.wmnet	ln	wiki
-lnwikibooks	s3-analytics-slave.eqiad.wmnet	ln	wikibooks
-lowiki	s3-analytics-slave.eqiad.wmnet	lo	wiki
-ltgwiki	s3-analytics-slave.eqiad.wmnet	ltg	wiki
-ltwiki	s3-analytics-slave.eqiad.wmnet	lt	wiki
-ltwikibooks	s3-analytics-slave.eqiad.wmnet	lt	wikibooks
-ltwikiquote	s3-analytics-slave.eqiad.wmnet	lt	wikiquote
-ltwikisource	s3-analytics-slave.eqiad.wmnet	lt	wikisource
-lvwiki	s3-analytics-slave.eqiad.wmnet	lv	wiki
-lvwikibooks	s3-analytics-slave.eqiad.wmnet	lv	wikibooks
-map_bmswiki	s3-analytics-slave.eqiad.wmnet	map-bms	wiki
-mdfwiki	s3-analytics-slave.eqiad.wmnet	mdf	wiki
-mgwiki	s3-analytics-slave.eqiad.wmnet	mg	wiki
-mgwikibooks	s3-analytics-slave.eqiad.wmnet	mg	wikibooks
-mhrwiki	s3-analytics-slave.eqiad.wmnet	mhr	wiki
-mhwiki	s3-analytics-slave.eqiad.wmnet	mh	wiki
-minnanwiki	s3-analytics-slave.eqiad.wmnet	minnan	wiki
-minwiki	s3-analytics-slave.eqiad.wmnet	min	wiki
-miwiki	s3-analytics-slave.eqiad.wmnet	mi	wiki
-miwikibooks	s3-analytics-slave.eqiad.wmnet	mi	wikibooks
-mkwiki	s3-analytics-slave.eqiad.wmnet	mk	wiki
-mkwikibooks	s3-analytics-slave.eqiad.wmnet	mk	wikibooks
-mkwikimedia	s3-analytics-slave.eqiad.wmnet	mk	wikimedia
-mkwikisource	s3-analytics-slave.eqiad.wmnet	mk	wikisource
-mlwiki	s3-analytics-slave.eqiad.wmnet	ml	wiki
-mlwikibooks	s3-analytics-slave.eqiad.wmnet	ml	wikibooks
-mlwikiquote	s3-analytics-slave.eqiad.wmnet	ml	wikiquote
-mlwikisource	s3-analytics-slave.eqiad.wmnet	ml	wikisource
-mnwiki	s3-analytics-slave.eqiad.wmnet	mn	wiki
-mnwikibooks	s3-analytics-slave.eqiad.wmnet	mn	wikibooks
-mowiki	s3-analytics-slave.eqiad.wmnet	mo	wiki
-mrjwiki	s3-analytics-slave.eqiad.wmnet	mrj	wiki
-mrwiki	s3-analytics-slave.eqiad.wmnet	mr	wiki
-mrwikibooks	s3-analytics-slave.eqiad.wmnet	mr	wikibooks
-mrwikiquote	s3-analytics-slave.eqiad.wmnet	mr	wikiquote
-mrwikisource	s3-analytics-slave.eqiad.wmnet	mr	wikisource
-mswiki	s3-analytics-slave.eqiad.wmnet	ms	wiki
-mswikibooks	s3-analytics-slave.eqiad.wmnet	ms	wikibooks
-mtwiki	s3-analytics-slave.eqiad.wmnet	mt	wiki
-muswiki	s3-analytics-slave.eqiad.wmnet	mus	wiki
-mwlwiki	s3-analytics-slave.eqiad.wmnet	mwl	wiki
-mxwikimedia	s3-analytics-slave.eqiad.wmnet	mx	wikimedia
-myvwiki	s3-analytics-slave.eqiad.wmnet	myv	wiki
-mywiki	s3-analytics-slave.eqiad.wmnet	my	wiki
-mywikibooks	s3-analytics-slave.eqiad.wmnet	my	wikibooks
-mznwiki	s3-analytics-slave.eqiad.wmnet	mzn	wiki
-nahwiki	s3-analytics-slave.eqiad.wmnet	nah	wiki
-nahwikibooks	s3-analytics-slave.eqiad.wmnet	nah	wikibooks
-napwiki	s3-analytics-slave.eqiad.wmnet	nap	wiki
-nawiki	s3-analytics-slave.eqiad.wmnet	na	wiki
-nawikibooks	s3-analytics-slave.eqiad.wmnet	na	wikibooks
-nawikiquote	s3-analytics-slave.eqiad.wmnet	na	wikiquote
-nds_nlwiki	s3-analytics-slave.eqiad.wmnet	nds-nl	wiki
-ndswiki	s3-analytics-slave.eqiad.wmnet	nds	wiki
-ndswikibooks	s3-analytics-slave.eqiad.wmnet	nds	wikibooks
-ndswikiquote	s3-analytics-slave.eqiad.wmnet	nds	wikiquote
-newiki	s3-analytics-slave.eqiad.wmnet	ne	wiki
-newikibooks	s3-analytics-slave.eqiad.wmnet	ne	wikibooks
-newwiki	s3-analytics-slave.eqiad.wmnet	new	wiki
-ngwiki	s3-analytics-slave.eqiad.wmnet	ng	wiki
-nlwikibooks	s3-analytics-slave.eqiad.wmnet	nl	wikibooks
-nlwikimedia	s3-analytics-slave.eqiad.wmnet	nl	wikimedia
-nlwikinews	s3-analytics-slave.eqiad.wmnet	nl	wikinews
-nlwikiquote	s3-analytics-slave.eqiad.wmnet	nl	wikiquote
-nlwikisource	s3-analytics-slave.eqiad.wmnet	nl	wikisource
-nlwikivoyage	s3-analytics-slave.eqiad.wmnet	nl	wikivoyage
-nnwiki	s3-analytics-slave.eqiad.wmnet	nn	wiki
-nnwikiquote	s3-analytics-slave.eqiad.wmnet	nn	wikiquote
-novwiki	s3-analytics-slave.eqiad.wmnet	nov	wiki
-nowikibooks	s3-analytics-slave.eqiad.wmnet	no	wikibooks
-nowikimedia	s3-analytics-slave.eqiad.wmnet	no	wikimedia
-nowikinews	s3-analytics-slave.eqiad.wmnet	no	wikinews
-nowikiquote	s3-analytics-slave.eqiad.wmnet	no	wikiquote
-nowikisource	s3-analytics-slave.eqiad.wmnet	no	wikisource
-nrmwiki	s3-analytics-slave.eqiad.wmnet	nrm	wiki
-nsowiki	s3-analytics-slave.eqiad.wmnet	nso	wiki
-nvwiki	s3-analytics-slave.eqiad.wmnet	nv	wiki
-nycwikimedia	s3-analytics-slave.eqiad.wmnet	nyc	wikimedia
-nywiki	s3-analytics-slave.eqiad.wmnet	ny	wiki
-nzwikimedia	s3-analytics-slave.eqiad.wmnet	nz	wikimedia
-ocwiki	s3-analytics-slave.eqiad.wmnet	oc	wiki
-ocwikibooks	s3-analytics-slave.eqiad.wmnet	oc	wikibooks
-omwiki	s3-analytics-slave.eqiad.wmnet	om	wiki
-orwiki	s3-analytics-slave.eqiad.wmnet	or	wiki
-oswiki	s3-analytics-slave.eqiad.wmnet	os	wiki
-pa_uswikimedia	s3-analytics-slave.eqiad.wmnet	pa-us	wikimedia
-pagwiki	s3-analytics-slave.eqiad.wmnet	pag	wiki
-pamwiki	s3-analytics-slave.eqiad.wmnet	pam	wiki
-papwiki	s3-analytics-slave.eqiad.wmnet	pap	wiki
-pawiki	s3-analytics-slave.eqiad.wmnet	pa	wiki
-pawikibooks	s3-analytics-slave.eqiad.wmnet	pa	wikibooks
-pcdwiki	s3-analytics-slave.eqiad.wmnet	pcd	wiki
-pdcwiki	s3-analytics-slave.eqiad.wmnet	pdc	wiki
-pflwiki	s3-analytics-slave.eqiad.wmnet	pfl	wiki
-pihwiki	s3-analytics-slave.eqiad.wmnet	pih	wiki
-piwiki	s3-analytics-slave.eqiad.wmnet	pi	wiki
-plwikibooks	s3-analytics-slave.eqiad.wmnet	pl	wikibooks
-plwikimedia	s3-analytics-slave.eqiad.wmnet	pl	wikimedia
-plwikinews	s3-analytics-slave.eqiad.wmnet	pl	wikinews
-plwikiquote	s3-analytics-slave.eqiad.wmnet	pl	wikiquote
-plwikisource	s3-analytics-slave.eqiad.wmnet	pl	wikisource
-plwikivoyage	s3-analytics-slave.eqiad.wmnet	pl	wikivoyage
-pmswiki	s3-analytics-slave.eqiad.wmnet	pms	wiki
-pnbwiki	s3-analytics-slave.eqiad.wmnet	pnb	wiki
-pntwiki	s3-analytics-slave.eqiad.wmnet	pnt	wiki
-pswiki	s3-analytics-slave.eqiad.wmnet	ps	wiki
-pswikibooks	s3-analytics-slave.eqiad.wmnet	ps	wikibooks
-ptwikibooks	s3-analytics-slave.eqiad.wmnet	pt	wikibooks
-ptwikimedia	s3-analytics-slave.eqiad.wmnet	pt	wikimedia
-ptwikinews	s3-analytics-slave.eqiad.wmnet	pt	wikinews
-ptwikiquote	s3-analytics-slave.eqiad.wmnet	pt	wikiquote
-ptwikisource	s3-analytics-slave.eqiad.wmnet	pt	wikisource
-ptwikiversity	s3-analytics-slave.eqiad.wmnet	pt	wikiversity
-ptwikivoyage	s3-analytics-slave.eqiad.wmnet	pt	wikivoyage
-quwiki	s3-analytics-slave.eqiad.wmnet	qu	wiki
-quwikibooks	s3-analytics-slave.eqiad.wmnet	qu	wikibooks
-quwikiquote	s3-analytics-slave.eqiad.wmnet	qu	wikiquote
-rmwiki	s3-analytics-slave.eqiad.wmnet	rm	wiki
-rmwikibooks	s3-analytics-slave.eqiad.wmnet	rm	wikibooks
-rmywiki	s3-analytics-slave.eqiad.wmnet	rmy	wiki
-rnwiki	s3-analytics-slave.eqiad.wmnet	rn	wiki
-roa_rupwiki	s3-analytics-slave.eqiad.wmnet	roa-rup	wiki
-roa_tarawiki	s3-analytics-slave.eqiad.wmnet	roa-tara	wiki
-rowikibooks	s3-analytics-slave.eqiad.wmnet	ro	wikibooks
-rowikinews	s3-analytics-slave.eqiad.wmnet	ro	wikinews
-rowikiquote	s3-analytics-slave.eqiad.wmnet	ro	wikiquote
-rowikisource	s3-analytics-slave.eqiad.wmnet	ro	wikisource
-rowikivoyage	s3-analytics-slave.eqiad.wmnet	ro	wikivoyage
-rswikimedia	s3-analytics-slave.eqiad.wmnet	rs	wikimedia
-ru_sibwiki	s3-analytics-slave.eqiad.wmnet	ru-sib	wiki
-ruewiki	s3-analytics-slave.eqiad.wmnet	rue	wiki
-ruwikibooks	s3-analytics-slave.eqiad.wmnet	ru	wikibooks
-ruwikimedia	s3-analytics-slave.eqiad.wmnet	ru	wikimedia
-ruwikinews	s3-analytics-slave.eqiad.wmnet	ru	wikinews
-ruwikiquote	s3-analytics-slave.eqiad.wmnet	ru	wikiquote
-ruwikisource	s3-analytics-slave.eqiad.wmnet	ru	wikisource
-ruwikiversity	s3-analytics-slave.eqiad.wmnet	ru	wikiversity
-ruwikivoyage	s3-analytics-slave.eqiad.wmnet	ru	wikivoyage
-rwwiki	s3-analytics-slave.eqiad.wmnet	rw	wiki
-sahwiki	s3-analytics-slave.eqiad.wmnet	sah	wiki
-sahwikisource	s3-analytics-slave.eqiad.wmnet	sah	wikisource
-sawiki	s3-analytics-slave.eqiad.wmnet	sa	wiki
-sawikibooks	s3-analytics-slave.eqiad.wmnet	sa	wikibooks
-sawikiquote	s3-analytics-slave.eqiad.wmnet	sa	wikiquote
-sawikisource	s3-analytics-slave.eqiad.wmnet	sa	wikisource
-scnwiki	s3-analytics-slave.eqiad.wmnet	scn	wiki
-scowiki	s3-analytics-slave.eqiad.wmnet	sco	wiki
-scwiki	s3-analytics-slave.eqiad.wmnet	sc	wiki
-sdwiki	s3-analytics-slave.eqiad.wmnet	sd	wiki
-sdwikinews	s3-analytics-slave.eqiad.wmnet	sd	wikinews
-sewiki	s3-analytics-slave.eqiad.wmnet	se	wiki
-sewikibooks	s3-analytics-slave.eqiad.wmnet	se	wikibooks
-sewikimedia	s3-analytics-slave.eqiad.wmnet	se	wikimedia
-sgwiki	s3-analytics-slave.eqiad.wmnet	sg	wiki
-shwiki	s3-analytics-slave.eqiad.wmnet	sh	wiki
-siwiki	s3-analytics-slave.eqiad.wmnet	si	wiki
-siwikibooks	s3-analytics-slave.eqiad.wmnet	si	wikibooks
-skwiki	s3-analytics-slave.eqiad.wmnet	sk	wiki
-skwikibooks	s3-analytics-slave.eqiad.wmnet	sk	wikibooks
-skwikiquote	s3-analytics-slave.eqiad.wmnet	sk	wikiquote
-skwikisource	s3-analytics-slave.eqiad.wmnet	sk	wikisource
-slwiki	s3-analytics-slave.eqiad.wmnet	sl	wiki
-slwikibooks	s3-analytics-slave.eqiad.wmnet	sl	wikibooks
-slwikiquote	s3-analytics-slave.eqiad.wmnet	sl	wikiquote
-slwikisource	s3-analytics-slave.eqiad.wmnet	sl	wikisource
-slwikiversity	s3-analytics-slave.eqiad.wmnet	sl	wikiversity
-smwiki	s3-analytics-slave.eqiad.wmnet	sm	wiki
-snwiki	s3-analytics-slave.eqiad.wmnet	sn	wiki
-sourceswiki	s3-analytics-slave.eqiad.wmnet	s	wiki
-sowiki	s3-analytics-slave.eqiad.wmnet	so	wiki
-sqwiki	s3-analytics-slave.eqiad.wmnet	sq	wiki
-sqwikibooks	s3-analytics-slave.eqiad.wmnet	sq	wikibooks
-sqwikinews	s3-analytics-slave.eqiad.wmnet	sq	wikinews
-sqwikiquote	s3-analytics-slave.eqiad.wmnet	sq	wikiquote
-srnwiki	s3-analytics-slave.eqiad.wmnet	srn	wiki
-srwiki	s3-analytics-slave.eqiad.wmnet	sr	wiki
-srwikibooks	s3-analytics-slave.eqiad.wmnet	sr	wikibooks
-srwikinews	s3-analytics-slave.eqiad.wmnet	sr	wikinews
-srwikiquote	s3-analytics-slave.eqiad.wmnet	sr	wikiquote
-srwikisource	s3-analytics-slave.eqiad.wmnet	sr	wikisource
-sswiki	s3-analytics-slave.eqiad.wmnet	ss	wiki
-stqwiki	s3-analytics-slave.eqiad.wmnet	stq	wiki
-stwiki	s3-analytics-slave.eqiad.wmnet	st	wiki
-suwiki	s3-analytics-slave.eqiad.wmnet	su	wiki
-suwikibooks	s3-analytics-slave.eqiad.wmnet	su	wikibooks
-suwikiquote	s3-analytics-slave.eqiad.wmnet	su	wikiquote
-svwikibooks	s3-analytics-slave.eqiad.wmnet	sv	wikibooks
-svwikinews	s3-analytics-slave.eqiad.wmnet	sv	wikinews
-svwikiquote	s3-analytics-slave.eqiad.wmnet	sv	wikiquote
-svwikisource	s3-analytics-slave.eqiad.wmnet	sv	wikisource
-svwikiversity	s3-analytics-slave.eqiad.wmnet	sv	wikiversity
-svwikivoyage	s3-analytics-slave.eqiad.wmnet	sv	wikivoyage
-swwiki	s3-analytics-slave.eqiad.wmnet	sw	wiki
-swwikibooks	s3-analytics-slave.eqiad.wmnet	sw	wikibooks
-szlwiki	s3-analytics-slave.eqiad.wmnet	szl	wiki
-tawiki	s3-analytics-slave.eqiad.wmnet	ta	wiki
-tawikibooks	s3-analytics-slave.eqiad.wmnet	ta	wikibooks
-tawikinews	s3-analytics-slave.eqiad.wmnet	ta	wikinews
-tawikiquote	s3-analytics-slave.eqiad.wmnet	ta	wikiquote
-tawikisource	s3-analytics-slave.eqiad.wmnet	ta	wikisource
-tenwiki	s3-analytics-slave.eqiad.wmnet	ten	wiki
-tetwiki	s3-analytics-slave.eqiad.wmnet	tet	wiki
-tewiki	s3-analytics-slave.eqiad.wmnet	te	wiki
-tewikibooks	s3-analytics-slave.eqiad.wmnet	te	wikibooks
-tewikiquote	s3-analytics-slave.eqiad.wmnet	te	wikiquote
-tewikisource	s3-analytics-slave.eqiad.wmnet	te	wikisource
-tgwiki	s3-analytics-slave.eqiad.wmnet	tg	wiki
-tgwikibooks	s3-analytics-slave.eqiad.wmnet	tg	wikibooks
-thwikibooks	s3-analytics-slave.eqiad.wmnet	th	wikibooks
-thwikinews	s3-analytics-slave.eqiad.wmnet	th	wikinews
-thwikiquote	s3-analytics-slave.eqiad.wmnet	th	wikiquote
-thwikisource	s3-analytics-slave.eqiad.wmnet	th	wikisource
-tiwiki	s3-analytics-slave.eqiad.wmnet	ti	wiki
-tkwiki	s3-analytics-slave.eqiad.wmnet	tk	wiki
-tkwikibooks	s3-analytics-slave.eqiad.wmnet	tk	wikibooks
-tkwikiquote	s3-analytics-slave.eqiad.wmnet	tk	wikiquote
-tlhwiki	s3-analytics-slave.eqiad.wmnet	tlh	wiki
-tlwiki	s3-analytics-slave.eqiad.wmnet	tl	wiki
-tlwikibooks	s3-analytics-slave.eqiad.wmnet	tl	wikibooks
-tnwiki	s3-analytics-slave.eqiad.wmnet	tn	wiki
-tokiponawiki	s3-analytics-slave.eqiad.wmnet	tokipona	wiki
-tokiponawikibooks	s3-analytics-slave.eqiad.wmnet	tokipona	wikibooks
-tokiponawikiquote	s3-analytics-slave.eqiad.wmnet	tokipona	wikiquote
-towiki	s3-analytics-slave.eqiad.wmnet	to	wiki
-tpiwiki	s3-analytics-slave.eqiad.wmnet	tpi	wiki
-trwikibooks	s3-analytics-slave.eqiad.wmnet	tr	wikibooks
-trwikimedia	s3-analytics-slave.eqiad.wmnet	tr	wikimedia
-trwikinews	s3-analytics-slave.eqiad.wmnet	tr	wikinews
-trwikiquote	s3-analytics-slave.eqiad.wmnet	tr	wikiquote
-trwikisource	s3-analytics-slave.eqiad.wmnet	tr	wikisource
-tswiki	s3-analytics-slave.eqiad.wmnet	ts	wiki
-ttwiki	s3-analytics-slave.eqiad.wmnet	tt	wiki
-ttwikibooks	s3-analytics-slave.eqiad.wmnet	tt	wikibooks
-ttwikiquote	s3-analytics-slave.eqiad.wmnet	tt	wikiquote
-tumwiki	s3-analytics-slave.eqiad.wmnet	tum	wiki
-twwiki	s3-analytics-slave.eqiad.wmnet	tw	wiki
-tywiki	s3-analytics-slave.eqiad.wmnet	ty	wiki
-uawikimedia	s3-analytics-slave.eqiad.wmnet	ua	wikimedia
-udmwiki	s3-analytics-slave.eqiad.wmnet	udm	wiki
-ugwiki	s3-analytics-slave.eqiad.wmnet	ug	wiki
-ugwikibooks	s3-analytics-slave.eqiad.wmnet	ug	wikibooks
-ugwikiquote	s3-analytics-slave.eqiad.wmnet	ug	wikiquote
-ukwiki	s3-analytics-slave.eqiad.wmnet	uk	wiki
-ukwikibooks	s3-analytics-slave.eqiad.wmnet	uk	wikibooks
-ukwikimedia	s3-analytics-slave.eqiad.wmnet	uk	wikimedia
-ukwikinews	s3-analytics-slave.eqiad.wmnet	uk	wikinews
-ukwikiquote	s3-analytics-slave.eqiad.wmnet	uk	wikiquote
-ukwikisource	s3-analytics-slave.eqiad.wmnet	uk	wikisource
-ukwikivoyage	s3-analytics-slave.eqiad.wmnet	uk	wikivoyage
-urwiki	s3-analytics-slave.eqiad.wmnet	ur	wiki
-urwikibooks	s3-analytics-slave.eqiad.wmnet	ur	wikibooks
-urwikiquote	s3-analytics-slave.eqiad.wmnet	ur	wikiquote
-uzwiki	s3-analytics-slave.eqiad.wmnet	uz	wiki
-uzwikibooks	s3-analytics-slave.eqiad.wmnet	uz	wikibooks
-uzwikiquote	s3-analytics-slave.eqiad.wmnet	uz	wikiquote
-vecwiki	s3-analytics-slave.eqiad.wmnet	vec	wiki
-vecwikisource	s3-analytics-slave.eqiad.wmnet	vec	wikisource
-vepwiki	s3-analytics-slave.eqiad.wmnet	vep	wiki
-vewiki	s3-analytics-slave.eqiad.wmnet	ve	wiki
-vewikimedia	s3-analytics-slave.eqiad.wmnet	ve	wikimedia
-viwiki	s3-analytics-slave.eqiad.wmnet	vi	wiki
-viwikibooks	s3-analytics-slave.eqiad.wmnet	vi	wikibooks
-viwikiquote	s3-analytics-slave.eqiad.wmnet	vi	wikiquote
-viwikisource	s3-analytics-slave.eqiad.wmnet	vi	wikisource
-vlswiki	s3-analytics-slave.eqiad.wmnet	vls	wiki
-vowiki	s3-analytics-slave.eqiad.wmnet	vo	wiki
-vowikibooks	s3-analytics-slave.eqiad.wmnet	vo	wikibooks
-vowikiquote	s3-analytics-slave.eqiad.wmnet	vo	wikiquote
-warwiki	s3-analytics-slave.eqiad.wmnet	war	wiki
-wawiki	s3-analytics-slave.eqiad.wmnet	wa	wiki
-wawikibooks	s3-analytics-slave.eqiad.wmnet	wa	wikibooks
-wg_enwiki	s3-analytics-slave.eqiad.wmnet	wg-en	wiki
-wowiki	s3-analytics-slave.eqiad.wmnet	wo	wiki
-wowikiquote	s3-analytics-slave.eqiad.wmnet	wo	wikiquote
-wuuwiki	s3-analytics-slave.eqiad.wmnet	wuu	wiki
-xalwiki	s3-analytics-slave.eqiad.wmnet	xal	wiki
-xhwiki	s3-analytics-slave.eqiad.wmnet	xh	wiki
-xhwikibooks	s3-analytics-slave.eqiad.wmnet	xh	wikibooks
-xmfwiki	s3-analytics-slave.eqiad.wmnet	xmf	wiki
-yiwiki	s3-analytics-slave.eqiad.wmnet	yi	wiki
-yiwikisource	s3-analytics-slave.eqiad.wmnet	yi	wikisource
-yowiki	s3-analytics-slave.eqiad.wmnet	yo	wiki
-yowikibooks	s3-analytics-slave.eqiad.wmnet	yo	wikibooks
-zawiki	s3-analytics-slave.eqiad.wmnet	za	wiki
-zawikibooks	s3-analytics-slave.eqiad.wmnet	za	wikibooks
-zawikiquote	s3-analytics-slave.eqiad.wmnet	za	wikiquote
-zeawiki	s3-analytics-slave.eqiad.wmnet	zea	wiki
-zh_classicalwiki	s3-analytics-slave.eqiad.wmnet	zh-classical	wiki
-zh_cnwiki	s3-analytics-slave.eqiad.wmnet	zh-cn	wiki
-zh_min_nanwiki	s3-analytics-slave.eqiad.wmnet	zh-min-nan	wiki
-zh_min_nanwikibooks	s3-analytics-slave.eqiad.wmnet	zh-min-nan	wikibooks
-zh_min_nanwikiquote	s3-analytics-slave.eqiad.wmnet	zh-min-nan	wikiquote
-zh_min_nanwikisource	s3-analytics-slave.eqiad.wmnet	zh-min-nan	wikisource
-zh_twwiki	s3-analytics-slave.eqiad.wmnet	zh-tw	wiki
-zh_yuewiki	s3-analytics-slave.eqiad.wmnet	zh-yue	wiki
-zhwikibooks	s3-analytics-slave.eqiad.wmnet	zh	wikibooks
-zhwikinews	s3-analytics-slave.eqiad.wmnet	zh	wikinews
-zhwikiquote	s3-analytics-slave.eqiad.wmnet	zh	wikiquote
-zhwikisource	s3-analytics-slave.eqiad.wmnet	zh	wikisource
-zuwiki	s3-analytics-slave.eqiad.wmnet	zu	wiki
-zuwikibooks	s3-analytics-slave.eqiad.wmnet	zu	wikibooks
-dewiki	s5-analytics-slave.eqiad.wmnet	de	wiki
-frwiki	s6-analytics-slave.eqiad.wmnet	fr	wiki
-jawiki	s6-analytics-slave.eqiad.wmnet	ja	wiki
-ruwiki	s6-analytics-slave.eqiad.wmnet	ru	wiki
-arwiki	s7-analytics-slave.eqiad.wmnet	ar	wiki
-cawiki	s7-analytics-slave.eqiad.wmnet	ca	wiki
-eswiki	s7-analytics-slave.eqiad.wmnet	es	wiki
-fawiki	s7-analytics-slave.eqiad.wmnet	fa	wiki
-hewiki	s7-analytics-slave.eqiad.wmnet	he	wiki
-huwiki	s7-analytics-slave.eqiad.wmnet	hu	wiki
-kowiki	s7-analytics-slave.eqiad.wmnet	ko	wiki
-rowiki	s7-analytics-slave.eqiad.wmnet	ro	wiki
-ukwiki	s7-analytics-slave.eqiad.wmnet	uk	wiki
-viwiki	s7-analytics-slave.eqiad.wmnet	vi	wiki
+"Database"	"Slave"	"Lang_Code"	"Project_Type"	"Lang_Name"
+"enwiki"	"s1-analytics-slave.eqiad.wmnet"	"en"	"wiki"	"English"
+"bgwiki"	"s2-analytics-slave.eqiad.wmnet"	"bg"	"wiki"	"Bulgarian"
+"bgwiktionary"	"s2-analytics-slave.eqiad.wmnet"	"bg"	"wiktionary"	"Bulgarian"
+"cswiki"	"s2-analytics-slave.eqiad.wmnet"	"cs"	"wiki"	"Czech"
+"enwikiquote"	"s2-analytics-slave.eqiad.wmnet"	"en"	"wikiquote"	"English"
+"enwiktionary"	"s2-analytics-slave.eqiad.wmnet"	"en"	"wiktionary"	"English"
+"eowiki"	"s2-analytics-slave.eqiad.wmnet"	"eo"	"wiki"	NA
+"fiwiki"	"s2-analytics-slave.eqiad.wmnet"	"fi"	"wiki"	"Finnish"
+"idwiki"	"s2-analytics-slave.eqiad.wmnet"	"id"	"wiki"	"Indonesian"
+"itwiki"	"s2-analytics-slave.eqiad.wmnet"	"it"	"wiki"	"Italian"
+"nlwiki"	"s2-analytics-slave.eqiad.wmnet"	"nl"	"wiki"	"Dutch"
+"nowiki"	"s2-analytics-slave.eqiad.wmnet"	"no"	"wiki"	"Norwegian"
+"plwiki"	"s2-analytics-slave.eqiad.wmnet"	"pl"	"wiki"	"Polish"
+"ptwiki"	"s2-analytics-slave.eqiad.wmnet"	"pt"	"wiki"	"Portuguese"
+"svwiki"	"s2-analytics-slave.eqiad.wmnet"	"sv"	"wiki"	"Swedish"
+"thwiki"	"s2-analytics-slave.eqiad.wmnet"	"th"	"wiki"	"Thai"
+"trwiki"	"s2-analytics-slave.eqiad.wmnet"	"tr"	"wiki"	"Turkish"
+"zhwiki"	"s2-analytics-slave.eqiad.wmnet"	"zh"	"wiki"	"Chinese"
+"abwiki"	"s3-analytics-slave.eqiad.wmnet"	"ab"	"wiki"	"Abkhazian"
+"acewiki"	"s3-analytics-slave.eqiad.wmnet"	"ace"	"wiki"	"Achinese"
+"afwiki"	"s3-analytics-slave.eqiad.wmnet"	"af"	"wiki"	"Afrikaans"
+"afwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"af"	"wikibooks"	"Afrikaans"
+"afwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"af"	"wikiquote"	"Afrikaans"
+"afwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"af"	"wiktionary"	"Afrikaans"
+"akwiki"	"s3-analytics-slave.eqiad.wmnet"	"ak"	"wiki"	"Akan"
+"alswiki"	"s3-analytics-slave.eqiad.wmnet"	"als"	"wiki"	"Tosk Albanian"
+"amwiki"	"s3-analytics-slave.eqiad.wmnet"	"am"	"wiki"	"Amharic"
+"amwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"am"	"wikiquote"	"Amharic"
+"amwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"am"	"wiktionary"	"Amharic"
+"angwiki"	"s3-analytics-slave.eqiad.wmnet"	"ang"	"wiki"	NA
+"angwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ang"	"wikibooks"	NA
+"angwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ang"	"wiktionary"	NA
+"anwiki"	"s3-analytics-slave.eqiad.wmnet"	"an"	"wiki"	"Aragonese"
+"anwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"an"	"wiktionary"	"Aragonese"
+"arcwiki"	"s3-analytics-slave.eqiad.wmnet"	"arc"	"wiki"	NA
+"arwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikibooks"	"Arabic"
+"arwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikimedia"	"Arabic"
+"arwikinews"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikinews"	"Arabic"
+"arwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikiquote"	"Arabic"
+"arwikisource"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikisource"	"Arabic"
+"arwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wikiversity"	"Arabic"
+"arwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ar"	"wiktionary"	"Arabic"
+"arzwiki"	"s3-analytics-slave.eqiad.wmnet"	"arz"	"wiki"	"Egyptian Arabic"
+"astwiki"	"s3-analytics-slave.eqiad.wmnet"	"ast"	"wiki"	"Asturian"
+"astwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ast"	"wiktionary"	"Asturian"
+"aswiki"	"s3-analytics-slave.eqiad.wmnet"	"as"	"wiki"	"Assamese"
+"aswikisource"	"s3-analytics-slave.eqiad.wmnet"	"as"	"wikisource"	"Assamese"
+"avwiki"	"s3-analytics-slave.eqiad.wmnet"	"av"	"wiki"	"Avaric"
+"aywiki"	"s3-analytics-slave.eqiad.wmnet"	"ay"	"wiki"	"Aymara"
+"aywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ay"	"wiktionary"	"Aymara"
+"azwiki"	"s3-analytics-slave.eqiad.wmnet"	"az"	"wiki"	"Azerbaijani"
+"azwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"az"	"wikibooks"	"Azerbaijani"
+"azwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"az"	"wikiquote"	"Azerbaijani"
+"azwikisource"	"s3-analytics-slave.eqiad.wmnet"	"az"	"wikisource"	"Azerbaijani"
+"azwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"az"	"wiktionary"	"Azerbaijani"
+"barwiki"	"s3-analytics-slave.eqiad.wmnet"	"bar"	"wiki"	"Bavarian"
+"bat_smgwiki"	"s3-analytics-slave.eqiad.wmnet"	"bat_smg"	"wiki"	NA
+"bawiki"	"s3-analytics-slave.eqiad.wmnet"	"ba"	"wiki"	"Bashkir"
+"bclwiki"	"s3-analytics-slave.eqiad.wmnet"	"bcl"	"wiki"	"Central Bikol"
+"bdwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"bd"	"wikimedia"	NA
+"be_x_oldwiki"	"s3-analytics-slave.eqiad.wmnet"	"be_x_old"	"wiki"	NA
+"betawikiversity"	"s3-analytics-slave.eqiad.wmnet"	"beta"	"wikiversity"	NA
+"bewiki"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wiki"	"Belarusian"
+"bewikibooks"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wikibooks"	"Belarusian"
+"bewikimedia"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wikimedia"	"Belarusian"
+"bewikiquote"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wikiquote"	"Belarusian"
+"bewikisource"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wikisource"	"Belarusian"
+"bewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"be"	"wiktionary"	"Belarusian"
+"bgwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"bg"	"wikibooks"	"Bulgarian"
+"bgwikinews"	"s3-analytics-slave.eqiad.wmnet"	"bg"	"wikinews"	"Bulgarian"
+"bgwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"bg"	"wikiquote"	"Bulgarian"
+"bgwikisource"	"s3-analytics-slave.eqiad.wmnet"	"bg"	"wikisource"	"Bulgarian"
+"bhwiki"	"s3-analytics-slave.eqiad.wmnet"	"bh"	"wiki"	NA
+"biwiki"	"s3-analytics-slave.eqiad.wmnet"	"bi"	"wiki"	"Bislama"
+"bjnwiki"	"s3-analytics-slave.eqiad.wmnet"	"bjn"	"wiki"	"Banjar"
+"bmwiki"	"s3-analytics-slave.eqiad.wmnet"	"bm"	"wiki"	"Bambara"
+"bnwiki"	"s3-analytics-slave.eqiad.wmnet"	"bn"	"wiki"	"Bengali"
+"bnwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"bn"	"wikibooks"	"Bengali"
+"bnwikisource"	"s3-analytics-slave.eqiad.wmnet"	"bn"	"wikisource"	"Bengali"
+"bnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"bn"	"wiktionary"	"Bengali"
+"bowiki"	"s3-analytics-slave.eqiad.wmnet"	"bo"	"wiki"	"Tibetan"
+"bpywiki"	"s3-analytics-slave.eqiad.wmnet"	"bpy"	"wiki"	"Bishnupriya"
+"brwiki"	"s3-analytics-slave.eqiad.wmnet"	"br"	"wiki"	"Breton"
+"brwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"br"	"wikimedia"	"Breton"
+"brwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"br"	"wikiquote"	"Breton"
+"brwikisource"	"s3-analytics-slave.eqiad.wmnet"	"br"	"wikisource"	"Breton"
+"brwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"br"	"wiktionary"	"Breton"
+"bswiki"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wiki"	"Bosnian"
+"bswikibooks"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wikibooks"	"Bosnian"
+"bswikinews"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wikinews"	"Bosnian"
+"bswikiquote"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wikiquote"	"Bosnian"
+"bswikisource"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wikisource"	"Bosnian"
+"bswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"bs"	"wiktionary"	"Bosnian"
+"bugwiki"	"s3-analytics-slave.eqiad.wmnet"	"bug"	"wiki"	"Buginese"
+"bxrwiki"	"s3-analytics-slave.eqiad.wmnet"	"bxr"	"wiki"	"Russia Buriat"
+"cawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ca"	"wikibooks"	"Catalan"
+"cawikinews"	"s3-analytics-slave.eqiad.wmnet"	"ca"	"wikinews"	"Catalan"
+"cawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ca"	"wikiquote"	"Catalan"
+"cawikisource"	"s3-analytics-slave.eqiad.wmnet"	"ca"	"wikisource"	"Catalan"
+"cawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ca"	"wiktionary"	"Catalan"
+"cbk_zamwiki"	"s3-analytics-slave.eqiad.wmnet"	"cbk_zam"	"wiki"	NA
+"cdowiki"	"s3-analytics-slave.eqiad.wmnet"	"cdo"	"wiki"	"Min Dong Chinese"
+"cebwiki"	"s3-analytics-slave.eqiad.wmnet"	"ceb"	"wiki"	"Cebuano"
+"cewiki"	"s3-analytics-slave.eqiad.wmnet"	"ce"	"wiki"	"Chechen"
+"chrwiki"	"s3-analytics-slave.eqiad.wmnet"	"chr"	"wiki"	"Cherokee"
+"chrwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"chr"	"wiktionary"	"Cherokee"
+"chwiki"	"s3-analytics-slave.eqiad.wmnet"	"ch"	"wiki"	"Chamorro"
+"chywiki"	"s3-analytics-slave.eqiad.wmnet"	"chy"	"wiki"	"Cheyenne"
+"ckbwiki"	"s3-analytics-slave.eqiad.wmnet"	"ckb"	"wiki"	"Central Kurdish"
+"cowiki"	"s3-analytics-slave.eqiad.wmnet"	"co"	"wiki"	"Corsican"
+"cowikimedia"	"s3-analytics-slave.eqiad.wmnet"	"co"	"wikimedia"	"Corsican"
+"cowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"co"	"wiktionary"	"Corsican"
+"crhwiki"	"s3-analytics-slave.eqiad.wmnet"	"crh"	"wiki"	"Crimean Tatar"
+"crwiki"	"s3-analytics-slave.eqiad.wmnet"	"cr"	"wiki"	"Cree"
+"csbwiki"	"s3-analytics-slave.eqiad.wmnet"	"csb"	"wiki"	"Kashubian"
+"csbwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"csb"	"wiktionary"	"Kashubian"
+"cswikibooks"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wikibooks"	"Czech"
+"cswikinews"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wikinews"	"Czech"
+"cswikiquote"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wikiquote"	"Czech"
+"cswikisource"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wikisource"	"Czech"
+"cswikiversity"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wikiversity"	"Czech"
+"cswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"cs"	"wiktionary"	"Czech"
+"cuwiki"	"s3-analytics-slave.eqiad.wmnet"	"cu"	"wiki"	NA
+"cvwiki"	"s3-analytics-slave.eqiad.wmnet"	"cv"	"wiki"	"Chuvash"
+"cvwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"cv"	"wikibooks"	"Chuvash"
+"cywiki"	"s3-analytics-slave.eqiad.wmnet"	"cy"	"wiki"	"Welsh"
+"cywikibooks"	"s3-analytics-slave.eqiad.wmnet"	"cy"	"wikibooks"	"Welsh"
+"cywikiquote"	"s3-analytics-slave.eqiad.wmnet"	"cy"	"wikiquote"	"Welsh"
+"cywikisource"	"s3-analytics-slave.eqiad.wmnet"	"cy"	"wikisource"	"Welsh"
+"cywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"cy"	"wiktionary"	"Welsh"
+"dawiki"	"s3-analytics-slave.eqiad.wmnet"	"da"	"wiki"	"Danish"
+"dawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"da"	"wikibooks"	"Danish"
+"dawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"da"	"wikiquote"	"Danish"
+"dawikisource"	"s3-analytics-slave.eqiad.wmnet"	"da"	"wikisource"	"Danish"
+"dawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"da"	"wiktionary"	"Danish"
+"dewikibooks"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikibooks"	"German"
+"dewikinews"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikinews"	"German"
+"dewikiquote"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikiquote"	"German"
+"dewikisource"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikisource"	"German"
+"dewikiversity"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikiversity"	"German"
+"dewikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wikivoyage"	"German"
+"dewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"de"	"wiktionary"	"German"
+"diqwiki"	"s3-analytics-slave.eqiad.wmnet"	"diq"	"wiki"	"Dimli (individual language)"
+"dkwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"dk"	"wikimedia"	NA
+"dsbwiki"	"s3-analytics-slave.eqiad.wmnet"	"dsb"	"wiki"	"Lower Sorbian"
+"dvwiki"	"s3-analytics-slave.eqiad.wmnet"	"dv"	"wiki"	"Dhivehi"
+"dvwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"dv"	"wiktionary"	"Dhivehi"
+"dzwiki"	"s3-analytics-slave.eqiad.wmnet"	"dz"	"wiki"	"Dzongkha"
+"eewiki"	"s3-analytics-slave.eqiad.wmnet"	"ee"	"wiki"	"Ewe"
+"elwiki"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wiki"	"Modern Greek (1453-)"
+"elwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikibooks"	"Modern Greek (1453-)"
+"elwikinews"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikinews"	"Modern Greek (1453-)"
+"elwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikiquote"	"Modern Greek (1453-)"
+"elwikisource"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikisource"	"Modern Greek (1453-)"
+"elwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikiversity"	"Modern Greek (1453-)"
+"elwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wikivoyage"	"Modern Greek (1453-)"
+"elwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"el"	"wiktionary"	"Modern Greek (1453-)"
+"emlwiki"	"s3-analytics-slave.eqiad.wmnet"	"eml"	"wiki"	NA
+"enwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"en"	"wikibooks"	"English"
+"enwikinews"	"s3-analytics-slave.eqiad.wmnet"	"en"	"wikinews"	"English"
+"enwikisource"	"s3-analytics-slave.eqiad.wmnet"	"en"	"wikisource"	"English"
+"enwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"en"	"wikiversity"	"English"
+"enwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"en"	"wikivoyage"	"English"
+"eowikibooks"	"s3-analytics-slave.eqiad.wmnet"	"eo"	"wikibooks"	NA
+"eowikinews"	"s3-analytics-slave.eqiad.wmnet"	"eo"	"wikinews"	NA
+"eowikiquote"	"s3-analytics-slave.eqiad.wmnet"	"eo"	"wikiquote"	NA
+"eowikisource"	"s3-analytics-slave.eqiad.wmnet"	"eo"	"wikisource"	NA
+"eowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"eo"	"wiktionary"	NA
+"eswikibooks"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikibooks"	"Spanish"
+"eswikinews"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikinews"	"Spanish"
+"eswikiquote"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikiquote"	"Spanish"
+"eswikisource"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikisource"	"Spanish"
+"eswikiversity"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikiversity"	"Spanish"
+"eswikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wikivoyage"	"Spanish"
+"eswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"es"	"wiktionary"	"Spanish"
+"etwiki"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wiki"	"Estonian"
+"etwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wikibooks"	"Estonian"
+"etwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wikimedia"	"Estonian"
+"etwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wikiquote"	"Estonian"
+"etwikisource"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wikisource"	"Estonian"
+"etwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"et"	"wiktionary"	"Estonian"
+"euwiki"	"s3-analytics-slave.eqiad.wmnet"	"eu"	"wiki"	"Basque"
+"euwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"eu"	"wikibooks"	"Basque"
+"euwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"eu"	"wikiquote"	"Basque"
+"euwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"eu"	"wiktionary"	"Basque"
+"extwiki"	"s3-analytics-slave.eqiad.wmnet"	"ext"	"wiki"	"Extremaduran"
+"fawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"fa"	"wikibooks"	"Persian"
+"fawikinews"	"s3-analytics-slave.eqiad.wmnet"	"fa"	"wikinews"	"Persian"
+"fawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"fa"	"wikiquote"	"Persian"
+"fawikisource"	"s3-analytics-slave.eqiad.wmnet"	"fa"	"wikisource"	"Persian"
+"fawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"fa"	"wiktionary"	"Persian"
+"ffwiki"	"s3-analytics-slave.eqiad.wmnet"	"ff"	"wiki"	"Fulah"
+"fiu_vrowiki"	"s3-analytics-slave.eqiad.wmnet"	"fiu_vro"	"wiki"	NA
+"fiwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikibooks"	"Finnish"
+"fiwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikimedia"	"Finnish"
+"fiwikinews"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikinews"	"Finnish"
+"fiwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikiquote"	"Finnish"
+"fiwikisource"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikisource"	"Finnish"
+"fiwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wikiversity"	"Finnish"
+"fiwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"fi"	"wiktionary"	"Finnish"
+"fjwiki"	"s3-analytics-slave.eqiad.wmnet"	"fj"	"wiki"	"Fijian"
+"fjwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"fj"	"wiktionary"	"Fijian"
+"fowiki"	"s3-analytics-slave.eqiad.wmnet"	"fo"	"wiki"	"Faroese"
+"fowikisource"	"s3-analytics-slave.eqiad.wmnet"	"fo"	"wikisource"	"Faroese"
+"fowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"fo"	"wiktionary"	"Faroese"
+"frpwiki"	"s3-analytics-slave.eqiad.wmnet"	"frp"	"wiki"	"Arpitan"
+"frrwiki"	"s3-analytics-slave.eqiad.wmnet"	"frr"	"wiki"	"Northern Frisian"
+"frwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikibooks"	"French"
+"frwikinews"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikinews"	"French"
+"frwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikiquote"	"French"
+"frwikisource"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikisource"	"French"
+"frwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikiversity"	"French"
+"frwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"fr"	"wikivoyage"	"French"
+"furwiki"	"s3-analytics-slave.eqiad.wmnet"	"fur"	"wiki"	"Friulian"
+"fywiki"	"s3-analytics-slave.eqiad.wmnet"	"fy"	"wiki"	"Western Frisian"
+"fywikibooks"	"s3-analytics-slave.eqiad.wmnet"	"fy"	"wikibooks"	"Western Frisian"
+"fywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"fy"	"wiktionary"	"Western Frisian"
+"gagwiki"	"s3-analytics-slave.eqiad.wmnet"	"gag"	"wiki"	"Gagauz"
+"ganwiki"	"s3-analytics-slave.eqiad.wmnet"	"gan"	"wiki"	"Gan Chinese"
+"gawiki"	"s3-analytics-slave.eqiad.wmnet"	"ga"	"wiki"	"Irish"
+"gawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ga"	"wiktionary"	"Irish"
+"gdwiki"	"s3-analytics-slave.eqiad.wmnet"	"gd"	"wiki"	"Scottish Gaelic"
+"gdwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"gd"	"wiktionary"	"Scottish Gaelic"
+"glkwiki"	"s3-analytics-slave.eqiad.wmnet"	"glk"	"wiki"	"Gilaki"
+"glwiki"	"s3-analytics-slave.eqiad.wmnet"	"gl"	"wiki"	"Galician"
+"glwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"gl"	"wikibooks"	"Galician"
+"glwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"gl"	"wikiquote"	"Galician"
+"glwikisource"	"s3-analytics-slave.eqiad.wmnet"	"gl"	"wikisource"	"Galician"
+"glwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"gl"	"wiktionary"	"Galician"
+"gnwiki"	"s3-analytics-slave.eqiad.wmnet"	"gn"	"wiki"	"Guarani"
+"gnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"gn"	"wiktionary"	"Guarani"
+"gotwiki"	"s3-analytics-slave.eqiad.wmnet"	"got"	"wiki"	NA
+"guwiki"	"s3-analytics-slave.eqiad.wmnet"	"gu"	"wiki"	"Gujarati"
+"guwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"gu"	"wikiquote"	"Gujarati"
+"guwikisource"	"s3-analytics-slave.eqiad.wmnet"	"gu"	"wikisource"	"Gujarati"
+"guwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"gu"	"wiktionary"	"Gujarati"
+"gvwiki"	"s3-analytics-slave.eqiad.wmnet"	"gv"	"wiki"	"Manx"
+"gvwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"gv"	"wiktionary"	"Manx"
+"hakwiki"	"s3-analytics-slave.eqiad.wmnet"	"hak"	"wiki"	"Hakka Chinese"
+"hawiki"	"s3-analytics-slave.eqiad.wmnet"	"ha"	"wiki"	"Hausa"
+"hawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ha"	"wiktionary"	"Hausa"
+"hawwiki"	"s3-analytics-slave.eqiad.wmnet"	"haw"	"wiki"	"Hawaiian"
+"hewikibooks"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wikibooks"	"Hebrew"
+"hewikinews"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wikinews"	"Hebrew"
+"hewikiquote"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wikiquote"	"Hebrew"
+"hewikisource"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wikisource"	"Hebrew"
+"hewikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wikivoyage"	"Hebrew"
+"hewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"he"	"wiktionary"	"Hebrew"
+"hifwiki"	"s3-analytics-slave.eqiad.wmnet"	"hif"	"wiki"	"Fiji Hindi"
+"hiwiki"	"s3-analytics-slave.eqiad.wmnet"	"hi"	"wiki"	"Hindi"
+"hiwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"hi"	"wikibooks"	"Hindi"
+"hiwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"hi"	"wikiquote"	"Hindi"
+"hiwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"hi"	"wiktionary"	"Hindi"
+"hrwiki"	"s3-analytics-slave.eqiad.wmnet"	"hr"	"wiki"	"Croatian"
+"hrwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"hr"	"wikibooks"	"Croatian"
+"hrwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"hr"	"wikiquote"	"Croatian"
+"hrwikisource"	"s3-analytics-slave.eqiad.wmnet"	"hr"	"wikisource"	"Croatian"
+"hrwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"hr"	"wiktionary"	"Croatian"
+"hsbwiki"	"s3-analytics-slave.eqiad.wmnet"	"hsb"	"wiki"	"Upper Sorbian"
+"hsbwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"hsb"	"wiktionary"	"Upper Sorbian"
+"htwiki"	"s3-analytics-slave.eqiad.wmnet"	"ht"	"wiki"	"Haitian"
+"huwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"hu"	"wikibooks"	"Hungarian"
+"huwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"hu"	"wikiquote"	"Hungarian"
+"huwikisource"	"s3-analytics-slave.eqiad.wmnet"	"hu"	"wikisource"	"Hungarian"
+"huwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"hu"	"wiktionary"	"Hungarian"
+"hywiki"	"s3-analytics-slave.eqiad.wmnet"	"hy"	"wiki"	"Armenian"
+"hywikibooks"	"s3-analytics-slave.eqiad.wmnet"	"hy"	"wikibooks"	"Armenian"
+"hywikiquote"	"s3-analytics-slave.eqiad.wmnet"	"hy"	"wikiquote"	"Armenian"
+"hywikisource"	"s3-analytics-slave.eqiad.wmnet"	"hy"	"wikisource"	"Armenian"
+"hywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"hy"	"wiktionary"	"Armenian"
+"iawiki"	"s3-analytics-slave.eqiad.wmnet"	"ia"	"wiki"	NA
+"iawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ia"	"wikibooks"	NA
+"iawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ia"	"wiktionary"	NA
+"idwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"id"	"wikibooks"	"Indonesian"
+"idwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"id"	"wikiquote"	"Indonesian"
+"idwikisource"	"s3-analytics-slave.eqiad.wmnet"	"id"	"wikisource"	"Indonesian"
+"idwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"id"	"wiktionary"	"Indonesian"
+"iewiki"	"s3-analytics-slave.eqiad.wmnet"	"ie"	"wiki"	NA
+"iewikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ie"	"wikibooks"	NA
+"iewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ie"	"wiktionary"	NA
+"igwiki"	"s3-analytics-slave.eqiad.wmnet"	"ig"	"wiki"	"Igbo"
+"ikwiki"	"s3-analytics-slave.eqiad.wmnet"	"ik"	"wiki"	"Inupiaq"
+"ilowiki"	"s3-analytics-slave.eqiad.wmnet"	"ilo"	"wiki"	"Iloko"
+"iowiki"	"s3-analytics-slave.eqiad.wmnet"	"io"	"wiki"	NA
+"iowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"io"	"wiktionary"	NA
+"iswiki"	"s3-analytics-slave.eqiad.wmnet"	"is"	"wiki"	"Icelandic"
+"iswikibooks"	"s3-analytics-slave.eqiad.wmnet"	"is"	"wikibooks"	"Icelandic"
+"iswikiquote"	"s3-analytics-slave.eqiad.wmnet"	"is"	"wikiquote"	"Icelandic"
+"iswikisource"	"s3-analytics-slave.eqiad.wmnet"	"is"	"wikisource"	"Icelandic"
+"iswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"is"	"wiktionary"	"Icelandic"
+"itwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikibooks"	"Italian"
+"itwikinews"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikinews"	"Italian"
+"itwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikiquote"	"Italian"
+"itwikisource"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikisource"	"Italian"
+"itwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikiversity"	"Italian"
+"itwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wikivoyage"	"Italian"
+"itwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"it"	"wiktionary"	"Italian"
+"iuwiki"	"s3-analytics-slave.eqiad.wmnet"	"iu"	"wiki"	"Inuktitut"
+"iuwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"iu"	"wiktionary"	"Inuktitut"
+"jawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wikibooks"	"Japanese"
+"jawikinews"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wikinews"	"Japanese"
+"jawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wikiquote"	"Japanese"
+"jawikisource"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wikisource"	"Japanese"
+"jawikiversity"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wikiversity"	"Japanese"
+"jawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ja"	"wiktionary"	"Japanese"
+"jbowiki"	"s3-analytics-slave.eqiad.wmnet"	"jbo"	"wiki"	NA
+"jbowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"jbo"	"wiktionary"	NA
+"jvwiki"	"s3-analytics-slave.eqiad.wmnet"	"jv"	"wiki"	"Javanese"
+"jvwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"jv"	"wiktionary"	"Javanese"
+"kaawiki"	"s3-analytics-slave.eqiad.wmnet"	"kaa"	"wiki"	"Kara-Kalpak"
+"kabwiki"	"s3-analytics-slave.eqiad.wmnet"	"kab"	"wiki"	"Kabyle"
+"kawiki"	"s3-analytics-slave.eqiad.wmnet"	"ka"	"wiki"	"Georgian"
+"kawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ka"	"wikibooks"	"Georgian"
+"kawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ka"	"wikiquote"	"Georgian"
+"kawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ka"	"wiktionary"	"Georgian"
+"kbdwiki"	"s3-analytics-slave.eqiad.wmnet"	"kbd"	"wiki"	"Kabardian"
+"kgwiki"	"s3-analytics-slave.eqiad.wmnet"	"kg"	"wiki"	"Kongo"
+"kiwiki"	"s3-analytics-slave.eqiad.wmnet"	"ki"	"wiki"	"Kikuyu"
+"kkwiki"	"s3-analytics-slave.eqiad.wmnet"	"kk"	"wiki"	"Kazakh"
+"kkwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"kk"	"wikibooks"	"Kazakh"
+"kkwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"kk"	"wiktionary"	"Kazakh"
+"klwiki"	"s3-analytics-slave.eqiad.wmnet"	"kl"	"wiki"	"Kalaallisut"
+"klwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"kl"	"wiktionary"	"Kalaallisut"
+"kmwiki"	"s3-analytics-slave.eqiad.wmnet"	"km"	"wiki"	"Central Khmer"
+"kmwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"km"	"wikibooks"	"Central Khmer"
+"kmwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"km"	"wiktionary"	"Central Khmer"
+"knwiki"	"s3-analytics-slave.eqiad.wmnet"	"kn"	"wiki"	"Kannada"
+"knwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"kn"	"wikiquote"	"Kannada"
+"knwikisource"	"s3-analytics-slave.eqiad.wmnet"	"kn"	"wikisource"	"Kannada"
+"knwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"kn"	"wiktionary"	"Kannada"
+"koiwiki"	"s3-analytics-slave.eqiad.wmnet"	"koi"	"wiki"	"Komi-Permyak"
+"kowikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wikibooks"	"Korean"
+"kowikinews"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wikinews"	"Korean"
+"kowikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wikiquote"	"Korean"
+"kowikisource"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wikisource"	"Korean"
+"kowikiversity"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wikiversity"	"Korean"
+"kowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ko"	"wiktionary"	"Korean"
+"krcwiki"	"s3-analytics-slave.eqiad.wmnet"	"krc"	"wiki"	"Karachay-Balkar"
+"kshwiki"	"s3-analytics-slave.eqiad.wmnet"	"ksh"	"wiki"	"Kölsch"
+"kswiki"	"s3-analytics-slave.eqiad.wmnet"	"ks"	"wiki"	"Kashmiri"
+"kswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ks"	"wiktionary"	"Kashmiri"
+"kuwiki"	"s3-analytics-slave.eqiad.wmnet"	"ku"	"wiki"	"Kurdish"
+"kuwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ku"	"wikibooks"	"Kurdish"
+"kuwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ku"	"wikiquote"	"Kurdish"
+"kuwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ku"	"wiktionary"	"Kurdish"
+"kvwiki"	"s3-analytics-slave.eqiad.wmnet"	"kv"	"wiki"	"Komi"
+"kwwiki"	"s3-analytics-slave.eqiad.wmnet"	"kw"	"wiki"	"Cornish"
+"kwwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"kw"	"wiktionary"	"Cornish"
+"kywiki"	"s3-analytics-slave.eqiad.wmnet"	"ky"	"wiki"	"Kirghiz"
+"kywikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ky"	"wikibooks"	"Kirghiz"
+"kywikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ky"	"wikiquote"	"Kirghiz"
+"kywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ky"	"wiktionary"	"Kirghiz"
+"ladwiki"	"s3-analytics-slave.eqiad.wmnet"	"lad"	"wiki"	"Ladino"
+"lawiki"	"s3-analytics-slave.eqiad.wmnet"	"la"	"wiki"	NA
+"lawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"la"	"wikibooks"	NA
+"lawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"la"	"wikiquote"	NA
+"lawikisource"	"s3-analytics-slave.eqiad.wmnet"	"la"	"wikisource"	NA
+"lawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"la"	"wiktionary"	NA
+"lbewiki"	"s3-analytics-slave.eqiad.wmnet"	"lbe"	"wiki"	"Lak"
+"lbwiki"	"s3-analytics-slave.eqiad.wmnet"	"lb"	"wiki"	"Luxembourgish"
+"lbwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"lb"	"wiktionary"	"Luxembourgish"
+"lezwiki"	"s3-analytics-slave.eqiad.wmnet"	"lez"	"wiki"	"Lezghian"
+"lgwiki"	"s3-analytics-slave.eqiad.wmnet"	"lg"	"wiki"	"Ganda"
+"lijwiki"	"s3-analytics-slave.eqiad.wmnet"	"lij"	"wiki"	"Ligurian"
+"liwiki"	"s3-analytics-slave.eqiad.wmnet"	"li"	"wiki"	"Limburgan"
+"liwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"li"	"wikibooks"	"Limburgan"
+"liwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"li"	"wikiquote"	"Limburgan"
+"liwikisource"	"s3-analytics-slave.eqiad.wmnet"	"li"	"wikisource"	"Limburgan"
+"liwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"li"	"wiktionary"	"Limburgan"
+"lmowiki"	"s3-analytics-slave.eqiad.wmnet"	"lmo"	"wiki"	"Lombard"
+"lnwiki"	"s3-analytics-slave.eqiad.wmnet"	"ln"	"wiki"	"Lingala"
+"lnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ln"	"wiktionary"	"Lingala"
+"lowiki"	"s3-analytics-slave.eqiad.wmnet"	"lo"	"wiki"	"Lao"
+"lowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"lo"	"wiktionary"	"Lao"
+"ltgwiki"	"s3-analytics-slave.eqiad.wmnet"	"ltg"	"wiki"	"Latgalian"
+"ltwiki"	"s3-analytics-slave.eqiad.wmnet"	"lt"	"wiki"	"Lithuanian"
+"ltwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"lt"	"wikibooks"	"Lithuanian"
+"ltwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"lt"	"wikiquote"	"Lithuanian"
+"ltwikisource"	"s3-analytics-slave.eqiad.wmnet"	"lt"	"wikisource"	"Lithuanian"
+"ltwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"lt"	"wiktionary"	"Lithuanian"
+"lvwiki"	"s3-analytics-slave.eqiad.wmnet"	"lv"	"wiki"	"Latvian"
+"lvwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"lv"	"wiktionary"	"Latvian"
+"map_bmswiki"	"s3-analytics-slave.eqiad.wmnet"	"map_bms"	"wiki"	NA
+"mdfwiki"	"s3-analytics-slave.eqiad.wmnet"	"mdf"	"wiki"	"Moksha"
+"mgwiki"	"s3-analytics-slave.eqiad.wmnet"	"mg"	"wiki"	"Malagasy"
+"mgwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"mg"	"wikibooks"	"Malagasy"
+"mgwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mg"	"wiktionary"	"Malagasy"
+"mhrwiki"	"s3-analytics-slave.eqiad.wmnet"	"mhr"	"wiki"	"Eastern Mari"
+"minwiki"	"s3-analytics-slave.eqiad.wmnet"	"min"	"wiki"	"Minangkabau"
+"miwiki"	"s3-analytics-slave.eqiad.wmnet"	"mi"	"wiki"	"Maori"
+"miwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mi"	"wiktionary"	"Maori"
+"mkwiki"	"s3-analytics-slave.eqiad.wmnet"	"mk"	"wiki"	"Macedonian"
+"mkwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"mk"	"wikibooks"	"Macedonian"
+"mkwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"mk"	"wikimedia"	"Macedonian"
+"mkwikisource"	"s3-analytics-slave.eqiad.wmnet"	"mk"	"wikisource"	"Macedonian"
+"mkwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mk"	"wiktionary"	"Macedonian"
+"mlwiki"	"s3-analytics-slave.eqiad.wmnet"	"ml"	"wiki"	"Malayalam"
+"mlwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ml"	"wikibooks"	"Malayalam"
+"mlwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ml"	"wikiquote"	"Malayalam"
+"mlwikisource"	"s3-analytics-slave.eqiad.wmnet"	"ml"	"wikisource"	"Malayalam"
+"mlwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ml"	"wiktionary"	"Malayalam"
+"mnwiki"	"s3-analytics-slave.eqiad.wmnet"	"mn"	"wiki"	"Mongolian"
+"mnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mn"	"wiktionary"	"Mongolian"
+"mrjwiki"	"s3-analytics-slave.eqiad.wmnet"	"mrj"	"wiki"	"Western Mari"
+"mrwiki"	"s3-analytics-slave.eqiad.wmnet"	"mr"	"wiki"	"Marathi"
+"mrwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"mr"	"wikibooks"	"Marathi"
+"mrwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"mr"	"wikiquote"	"Marathi"
+"mrwikisource"	"s3-analytics-slave.eqiad.wmnet"	"mr"	"wikisource"	"Marathi"
+"mrwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mr"	"wiktionary"	"Marathi"
+"mswiki"	"s3-analytics-slave.eqiad.wmnet"	"ms"	"wiki"	"Malay (macrolanguage)"
+"mswikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ms"	"wikibooks"	"Malay (macrolanguage)"
+"mswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ms"	"wiktionary"	"Malay (macrolanguage)"
+"mtwiki"	"s3-analytics-slave.eqiad.wmnet"	"mt"	"wiki"	"Maltese"
+"mtwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"mt"	"wiktionary"	"Maltese"
+"mwlwiki"	"s3-analytics-slave.eqiad.wmnet"	"mwl"	"wiki"	"Mirandese"
+"mxwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"mx"	"wikimedia"	NA
+"myvwiki"	"s3-analytics-slave.eqiad.wmnet"	"myv"	"wiki"	"Erzya"
+"mywiki"	"s3-analytics-slave.eqiad.wmnet"	"my"	"wiki"	"Burmese"
+"mywiktionary"	"s3-analytics-slave.eqiad.wmnet"	"my"	"wiktionary"	"Burmese"
+"mznwiki"	"s3-analytics-slave.eqiad.wmnet"	"mzn"	"wiki"	"Mazanderani"
+"nahwiki"	"s3-analytics-slave.eqiad.wmnet"	"nah"	"wiki"	NA
+"nahwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"nah"	"wiktionary"	NA
+"napwiki"	"s3-analytics-slave.eqiad.wmnet"	"nap"	"wiki"	"Neapolitan"
+"nawiki"	"s3-analytics-slave.eqiad.wmnet"	"na"	"wiki"	"Nauru"
+"nawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"na"	"wiktionary"	"Nauru"
+"nds_nlwiki"	"s3-analytics-slave.eqiad.wmnet"	"nds_nl"	"wiki"	NA
+"ndswiki"	"s3-analytics-slave.eqiad.wmnet"	"nds"	"wiki"	"Low German"
+"ndswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"nds"	"wiktionary"	"Low German"
+"newiki"	"s3-analytics-slave.eqiad.wmnet"	"ne"	"wiki"	"Nepali (macrolanguage)"
+"newikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ne"	"wikibooks"	"Nepali (macrolanguage)"
+"newiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ne"	"wiktionary"	"Nepali (macrolanguage)"
+"newwiki"	"s3-analytics-slave.eqiad.wmnet"	"new"	"wiki"	"Newari"
+"nlwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wikibooks"	"Dutch"
+"nlwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wikimedia"	"Dutch"
+"nlwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wikiquote"	"Dutch"
+"nlwikisource"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wikisource"	"Dutch"
+"nlwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wikivoyage"	"Dutch"
+"nlwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"nl"	"wiktionary"	"Dutch"
+"nnwiki"	"s3-analytics-slave.eqiad.wmnet"	"nn"	"wiki"	"Norwegian Nynorsk"
+"nnwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"nn"	"wikiquote"	"Norwegian Nynorsk"
+"nnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"nn"	"wiktionary"	"Norwegian Nynorsk"
+"novwiki"	"s3-analytics-slave.eqiad.wmnet"	"nov"	"wiki"	NA
+"nowikibooks"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wikibooks"	"Norwegian"
+"nowikimedia"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wikimedia"	"Norwegian"
+"nowikinews"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wikinews"	"Norwegian"
+"nowikiquote"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wikiquote"	"Norwegian"
+"nowikisource"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wikisource"	"Norwegian"
+"nowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"no"	"wiktionary"	"Norwegian"
+"nrmwiki"	"s3-analytics-slave.eqiad.wmnet"	"nrm"	"wiki"	"Narom"
+"nsowiki"	"s3-analytics-slave.eqiad.wmnet"	"nso"	"wiki"	"Pedi"
+"nvwiki"	"s3-analytics-slave.eqiad.wmnet"	"nv"	"wiki"	"Navajo"
+"nycwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"nyc"	"wikimedia"	"Nyanga-li"
+"nywiki"	"s3-analytics-slave.eqiad.wmnet"	"ny"	"wiki"	"Nyanja"
+"ocwiki"	"s3-analytics-slave.eqiad.wmnet"	"oc"	"wiki"	"Occitan (post 1500)"
+"ocwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"oc"	"wikibooks"	"Occitan (post 1500)"
+"ocwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"oc"	"wiktionary"	"Occitan (post 1500)"
+"omwiki"	"s3-analytics-slave.eqiad.wmnet"	"om"	"wiki"	"Oromo"
+"omwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"om"	"wiktionary"	"Oromo"
+"orwiki"	"s3-analytics-slave.eqiad.wmnet"	"or"	"wiki"	"Oriya (macrolanguage)"
+"orwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"or"	"wiktionary"	"Oriya (macrolanguage)"
+"oswiki"	"s3-analytics-slave.eqiad.wmnet"	"os"	"wiki"	"Ossetian"
+"pagwiki"	"s3-analytics-slave.eqiad.wmnet"	"pag"	"wiki"	"Pangasinan"
+"pamwiki"	"s3-analytics-slave.eqiad.wmnet"	"pam"	"wiki"	"Pampanga"
+"papwiki"	"s3-analytics-slave.eqiad.wmnet"	"pap"	"wiki"	"Papiamento"
+"pawiki"	"s3-analytics-slave.eqiad.wmnet"	"pa"	"wiki"	"Panjabi"
+"pawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"pa"	"wikibooks"	"Panjabi"
+"pawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"pa"	"wiktionary"	"Panjabi"
+"pcdwiki"	"s3-analytics-slave.eqiad.wmnet"	"pcd"	"wiki"	"Picard"
+"pdcwiki"	"s3-analytics-slave.eqiad.wmnet"	"pdc"	"wiki"	"Pennsylvania German"
+"pflwiki"	"s3-analytics-slave.eqiad.wmnet"	"pfl"	"wiki"	"Pfaelzisch"
+"pihwiki"	"s3-analytics-slave.eqiad.wmnet"	"pih"	"wiki"	"Pitcairn-Norfolk"
+"piwiki"	"s3-analytics-slave.eqiad.wmnet"	"pi"	"wiki"	NA
+"plwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikibooks"	"Polish"
+"plwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikimedia"	"Polish"
+"plwikinews"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikinews"	"Polish"
+"plwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikiquote"	"Polish"
+"plwikisource"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikisource"	"Polish"
+"plwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wikivoyage"	"Polish"
+"plwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"pl"	"wiktionary"	"Polish"
+"pmswiki"	"s3-analytics-slave.eqiad.wmnet"	"pms"	"wiki"	"Piemontese"
+"pnbwiki"	"s3-analytics-slave.eqiad.wmnet"	"pnb"	"wiki"	"Western Panjabi"
+"pnbwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"pnb"	"wiktionary"	"Western Panjabi"
+"pntwiki"	"s3-analytics-slave.eqiad.wmnet"	"pnt"	"wiki"	"Pontic"
+"pswiki"	"s3-analytics-slave.eqiad.wmnet"	"ps"	"wiki"	"Pushto"
+"pswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ps"	"wiktionary"	"Pushto"
+"ptwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikibooks"	"Portuguese"
+"ptwikinews"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikinews"	"Portuguese"
+"ptwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikiquote"	"Portuguese"
+"ptwikisource"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikisource"	"Portuguese"
+"ptwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikiversity"	"Portuguese"
+"ptwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wikivoyage"	"Portuguese"
+"ptwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"pt"	"wiktionary"	"Portuguese"
+"quwiki"	"s3-analytics-slave.eqiad.wmnet"	"qu"	"wiki"	"Quechua"
+"quwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"qu"	"wiktionary"	"Quechua"
+"rmwiki"	"s3-analytics-slave.eqiad.wmnet"	"rm"	"wiki"	"Romansh"
+"rmywiki"	"s3-analytics-slave.eqiad.wmnet"	"rmy"	"wiki"	"Vlax Romani"
+"rnwiki"	"s3-analytics-slave.eqiad.wmnet"	"rn"	"wiki"	"Rundi"
+"roa_rupwiki"	"s3-analytics-slave.eqiad.wmnet"	"roa_rup"	"wiki"	NA
+"roa_rupwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"roa_rup"	"wiktionary"	NA
+"roa_tarawiki"	"s3-analytics-slave.eqiad.wmnet"	"roa_tara"	"wiki"	NA
+"rowikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wikibooks"	"Romanian"
+"rowikinews"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wikinews"	"Romanian"
+"rowikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wikiquote"	"Romanian"
+"rowikisource"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wikisource"	"Romanian"
+"rowikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wikivoyage"	"Romanian"
+"rowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ro"	"wiktionary"	"Romanian"
+"rswikimedia"	"s3-analytics-slave.eqiad.wmnet"	"rs"	"wikimedia"	NA
+"ruewiki"	"s3-analytics-slave.eqiad.wmnet"	"rue"	"wiki"	"Rusyn"
+"ruwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikibooks"	"Russian"
+"ruwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikimedia"	"Russian"
+"ruwikinews"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikinews"	"Russian"
+"ruwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikiquote"	"Russian"
+"ruwikisource"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikisource"	"Russian"
+"ruwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikiversity"	"Russian"
+"ruwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wikivoyage"	"Russian"
+"ruwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ru"	"wiktionary"	"Russian"
+"rwwiki"	"s3-analytics-slave.eqiad.wmnet"	"rw"	"wiki"	"Kinyarwanda"
+"rwwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"rw"	"wiktionary"	"Kinyarwanda"
+"sahwiki"	"s3-analytics-slave.eqiad.wmnet"	"sah"	"wiki"	"Yakut"
+"sahwikisource"	"s3-analytics-slave.eqiad.wmnet"	"sah"	"wikisource"	"Yakut"
+"sawiki"	"s3-analytics-slave.eqiad.wmnet"	"sa"	"wiki"	NA
+"sawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sa"	"wikibooks"	NA
+"sawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sa"	"wikiquote"	NA
+"sawikisource"	"s3-analytics-slave.eqiad.wmnet"	"sa"	"wikisource"	NA
+"sawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sa"	"wiktionary"	NA
+"scnwiki"	"s3-analytics-slave.eqiad.wmnet"	"scn"	"wiki"	"Sicilian"
+"scnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"scn"	"wiktionary"	"Sicilian"
+"scowiki"	"s3-analytics-slave.eqiad.wmnet"	"sco"	"wiki"	"Scots"
+"scwiki"	"s3-analytics-slave.eqiad.wmnet"	"sc"	"wiki"	"Sardinian"
+"sdwiki"	"s3-analytics-slave.eqiad.wmnet"	"sd"	"wiki"	"Sindhi"
+"sdwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sd"	"wiktionary"	"Sindhi"
+"sewiki"	"s3-analytics-slave.eqiad.wmnet"	"se"	"wiki"	"Northern Sami"
+"sewikimedia"	"s3-analytics-slave.eqiad.wmnet"	"se"	"wikimedia"	"Northern Sami"
+"sgwiki"	"s3-analytics-slave.eqiad.wmnet"	"sg"	"wiki"	"Sango"
+"sgwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sg"	"wiktionary"	"Sango"
+"shwiki"	"s3-analytics-slave.eqiad.wmnet"	"sh"	"wiki"	"Serbo-Croatian"
+"shwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sh"	"wiktionary"	"Serbo-Croatian"
+"simplewiki"	"s3-analytics-slave.eqiad.wmnet"	"simple"	"wiki"	NA
+"simplewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"simple"	"wiktionary"	NA
+"siwiki"	"s3-analytics-slave.eqiad.wmnet"	"si"	"wiki"	"Sinhala"
+"siwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"si"	"wikibooks"	"Sinhala"
+"siwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"si"	"wiktionary"	"Sinhala"
+"skwiki"	"s3-analytics-slave.eqiad.wmnet"	"sk"	"wiki"	"Slovak"
+"skwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sk"	"wikibooks"	"Slovak"
+"skwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sk"	"wikiquote"	"Slovak"
+"skwikisource"	"s3-analytics-slave.eqiad.wmnet"	"sk"	"wikisource"	"Slovak"
+"skwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sk"	"wiktionary"	"Slovak"
+"slwiki"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wiki"	"Slovenian"
+"slwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wikibooks"	"Slovenian"
+"slwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wikiquote"	"Slovenian"
+"slwikisource"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wikisource"	"Slovenian"
+"slwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wikiversity"	"Slovenian"
+"slwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sl"	"wiktionary"	"Slovenian"
+"smwiki"	"s3-analytics-slave.eqiad.wmnet"	"sm"	"wiki"	"Samoan"
+"smwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sm"	"wiktionary"	"Samoan"
+"snwiki"	"s3-analytics-slave.eqiad.wmnet"	"sn"	"wiki"	"Shona"
+"sowiki"	"s3-analytics-slave.eqiad.wmnet"	"so"	"wiki"	"Somali"
+"sowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"so"	"wiktionary"	"Somali"
+"sqwiki"	"s3-analytics-slave.eqiad.wmnet"	"sq"	"wiki"	"Albanian"
+"sqwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sq"	"wikibooks"	"Albanian"
+"sqwikinews"	"s3-analytics-slave.eqiad.wmnet"	"sq"	"wikinews"	"Albanian"
+"sqwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sq"	"wikiquote"	"Albanian"
+"sqwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sq"	"wiktionary"	"Albanian"
+"srnwiki"	"s3-analytics-slave.eqiad.wmnet"	"srn"	"wiki"	"Sranan Tongo"
+"srwiki"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wiki"	"Serbian"
+"srwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wikibooks"	"Serbian"
+"srwikinews"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wikinews"	"Serbian"
+"srwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wikiquote"	"Serbian"
+"srwikisource"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wikisource"	"Serbian"
+"srwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sr"	"wiktionary"	"Serbian"
+"sswiki"	"s3-analytics-slave.eqiad.wmnet"	"ss"	"wiki"	"Swati"
+"sswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ss"	"wiktionary"	"Swati"
+"stqwiki"	"s3-analytics-slave.eqiad.wmnet"	"stq"	"wiki"	"Saterfriesisch"
+"stwiki"	"s3-analytics-slave.eqiad.wmnet"	"st"	"wiki"	"Southern Sotho"
+"stwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"st"	"wiktionary"	"Southern Sotho"
+"suwiki"	"s3-analytics-slave.eqiad.wmnet"	"su"	"wiki"	"Sundanese"
+"suwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"su"	"wikiquote"	"Sundanese"
+"suwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"su"	"wiktionary"	"Sundanese"
+"svwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikibooks"	"Swedish"
+"svwikinews"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikinews"	"Swedish"
+"svwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikiquote"	"Swedish"
+"svwikisource"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikisource"	"Swedish"
+"svwikiversity"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikiversity"	"Swedish"
+"svwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wikivoyage"	"Swedish"
+"svwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sv"	"wiktionary"	"Swedish"
+"swwiki"	"s3-analytics-slave.eqiad.wmnet"	"sw"	"wiki"	"Swahili (macrolanguage)"
+"swwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"sw"	"wiktionary"	"Swahili (macrolanguage)"
+"szlwiki"	"s3-analytics-slave.eqiad.wmnet"	"szl"	"wiki"	"Silesian"
+"tawiki"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wiki"	"Tamil"
+"tawikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wikibooks"	"Tamil"
+"tawikinews"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wikinews"	"Tamil"
+"tawikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wikiquote"	"Tamil"
+"tawikisource"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wikisource"	"Tamil"
+"tawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ta"	"wiktionary"	"Tamil"
+"tetwiki"	"s3-analytics-slave.eqiad.wmnet"	"tet"	"wiki"	"Tetum"
+"tewiki"	"s3-analytics-slave.eqiad.wmnet"	"te"	"wiki"	"Telugu"
+"tewikibooks"	"s3-analytics-slave.eqiad.wmnet"	"te"	"wikibooks"	"Telugu"
+"tewikiquote"	"s3-analytics-slave.eqiad.wmnet"	"te"	"wikiquote"	"Telugu"
+"tewikisource"	"s3-analytics-slave.eqiad.wmnet"	"te"	"wikisource"	"Telugu"
+"tewiktionary"	"s3-analytics-slave.eqiad.wmnet"	"te"	"wiktionary"	"Telugu"
+"tgwiki"	"s3-analytics-slave.eqiad.wmnet"	"tg"	"wiki"	"Tajik"
+"tgwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"tg"	"wikibooks"	"Tajik"
+"tgwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tg"	"wiktionary"	"Tajik"
+"thwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"th"	"wikibooks"	"Thai"
+"thwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"th"	"wikiquote"	"Thai"
+"thwikisource"	"s3-analytics-slave.eqiad.wmnet"	"th"	"wikisource"	"Thai"
+"thwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"th"	"wiktionary"	"Thai"
+"tiwiki"	"s3-analytics-slave.eqiad.wmnet"	"ti"	"wiki"	"Tigrinya"
+"tiwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ti"	"wiktionary"	"Tigrinya"
+"tkwiki"	"s3-analytics-slave.eqiad.wmnet"	"tk"	"wiki"	"Turkmen"
+"tkwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tk"	"wiktionary"	"Turkmen"
+"tlwiki"	"s3-analytics-slave.eqiad.wmnet"	"tl"	"wiki"	"Tagalog"
+"tlwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"tl"	"wikibooks"	"Tagalog"
+"tlwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tl"	"wiktionary"	"Tagalog"
+"tnwiki"	"s3-analytics-slave.eqiad.wmnet"	"tn"	"wiki"	"Tswana"
+"tnwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tn"	"wiktionary"	"Tswana"
+"towiki"	"s3-analytics-slave.eqiad.wmnet"	"to"	"wiki"	"Tonga (Tonga Islands)"
+"tpiwiki"	"s3-analytics-slave.eqiad.wmnet"	"tpi"	"wiki"	"Tok Pisin"
+"tpiwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tpi"	"wiktionary"	"Tok Pisin"
+"trwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wikibooks"	"Turkish"
+"trwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wikimedia"	"Turkish"
+"trwikinews"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wikinews"	"Turkish"
+"trwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wikiquote"	"Turkish"
+"trwikisource"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wikisource"	"Turkish"
+"trwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tr"	"wiktionary"	"Turkish"
+"tswiki"	"s3-analytics-slave.eqiad.wmnet"	"ts"	"wiki"	"Tsonga"
+"tswiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ts"	"wiktionary"	"Tsonga"
+"ttwiki"	"s3-analytics-slave.eqiad.wmnet"	"tt"	"wiki"	"Tatar"
+"ttwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"tt"	"wikibooks"	"Tatar"
+"ttwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"tt"	"wiktionary"	"Tatar"
+"tumwiki"	"s3-analytics-slave.eqiad.wmnet"	"tum"	"wiki"	"Tumbuka"
+"twwiki"	"s3-analytics-slave.eqiad.wmnet"	"tw"	"wiki"	"Twi"
+"tywiki"	"s3-analytics-slave.eqiad.wmnet"	"ty"	"wiki"	"Tahitian"
+"uawikimedia"	"s3-analytics-slave.eqiad.wmnet"	"ua"	"wikimedia"	NA
+"udmwiki"	"s3-analytics-slave.eqiad.wmnet"	"udm"	"wiki"	"Udmurt"
+"ugwiki"	"s3-analytics-slave.eqiad.wmnet"	"ug"	"wiki"	"Uighur"
+"ugwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ug"	"wiktionary"	"Uighur"
+"ukwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikibooks"	"Ukrainian"
+"ukwikimedia"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikimedia"	"Ukrainian"
+"ukwikinews"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikinews"	"Ukrainian"
+"ukwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikiquote"	"Ukrainian"
+"ukwikisource"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikisource"	"Ukrainian"
+"ukwikivoyage"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wikivoyage"	"Ukrainian"
+"ukwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"uk"	"wiktionary"	"Ukrainian"
+"urwiki"	"s3-analytics-slave.eqiad.wmnet"	"ur"	"wiki"	"Urdu"
+"urwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"ur"	"wikibooks"	"Urdu"
+"urwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"ur"	"wikiquote"	"Urdu"
+"urwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"ur"	"wiktionary"	"Urdu"
+"uzwiki"	"s3-analytics-slave.eqiad.wmnet"	"uz"	"wiki"	"Uzbek"
+"uzwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"uz"	"wikibooks"	"Uzbek"
+"uzwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"uz"	"wikiquote"	"Uzbek"
+"uzwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"uz"	"wiktionary"	"Uzbek"
+"vecwiki"	"s3-analytics-slave.eqiad.wmnet"	"vec"	"wiki"	"Venetian"
+"vecwikisource"	"s3-analytics-slave.eqiad.wmnet"	"vec"	"wikisource"	"Venetian"
+"vecwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"vec"	"wiktionary"	"Venetian"
+"vepwiki"	"s3-analytics-slave.eqiad.wmnet"	"vep"	"wiki"	"Veps"
+"vewiki"	"s3-analytics-slave.eqiad.wmnet"	"ve"	"wiki"	"Venda"
+"viwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"vi"	"wikibooks"	"Vietnamese"
+"viwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"vi"	"wikiquote"	"Vietnamese"
+"viwikisource"	"s3-analytics-slave.eqiad.wmnet"	"vi"	"wikisource"	"Vietnamese"
+"viwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"vi"	"wiktionary"	"Vietnamese"
+"vlswiki"	"s3-analytics-slave.eqiad.wmnet"	"vls"	"wiki"	"Vlaams"
+"vowiki"	"s3-analytics-slave.eqiad.wmnet"	"vo"	"wiki"	NA
+"vowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"vo"	"wiktionary"	NA
+"warwiki"	"s3-analytics-slave.eqiad.wmnet"	"war"	"wiki"	"Waray (Philippines)"
+"wawiki"	"s3-analytics-slave.eqiad.wmnet"	"wa"	"wiki"	"Walloon"
+"wawiktionary"	"s3-analytics-slave.eqiad.wmnet"	"wa"	"wiktionary"	"Walloon"
+"wowiki"	"s3-analytics-slave.eqiad.wmnet"	"wo"	"wiki"	"Wolof"
+"wowikiquote"	"s3-analytics-slave.eqiad.wmnet"	"wo"	"wikiquote"	"Wolof"
+"wowiktionary"	"s3-analytics-slave.eqiad.wmnet"	"wo"	"wiktionary"	"Wolof"
+"wuuwiki"	"s3-analytics-slave.eqiad.wmnet"	"wuu"	"wiki"	"Wu Chinese"
+"xalwiki"	"s3-analytics-slave.eqiad.wmnet"	"xal"	"wiki"	"Kalmyk"
+"xhwiki"	"s3-analytics-slave.eqiad.wmnet"	"xh"	"wiki"	"Xhosa"
+"xmfwiki"	"s3-analytics-slave.eqiad.wmnet"	"xmf"	"wiki"	"Mingrelian"
+"yiwiki"	"s3-analytics-slave.eqiad.wmnet"	"yi"	"wiki"	"Yiddish"
+"yiwikisource"	"s3-analytics-slave.eqiad.wmnet"	"yi"	"wikisource"	"Yiddish"
+"yiwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"yi"	"wiktionary"	"Yiddish"
+"yowiki"	"s3-analytics-slave.eqiad.wmnet"	"yo"	"wiki"	"Yoruba"
+"zawiki"	"s3-analytics-slave.eqiad.wmnet"	"za"	"wiki"	"Zhuang"
+"zeawiki"	"s3-analytics-slave.eqiad.wmnet"	"zea"	"wiki"	"Zeeuws"
+"zh_classicalwiki"	"s3-analytics-slave.eqiad.wmnet"	"zh_classical"	"wiki"	NA
+"zh_min_nanwiki"	"s3-analytics-slave.eqiad.wmnet"	"zh_min_nan"	"wiki"	NA
+"zh_min_nanwikisource"	"s3-analytics-slave.eqiad.wmnet"	"zh_min_nan"	"wikisource"	NA
+"zh_min_nanwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"zh_min_nan"	"wiktionary"	NA
+"zh_yuewiki"	"s3-analytics-slave.eqiad.wmnet"	"zh_yue"	"wiki"	NA
+"zhwikibooks"	"s3-analytics-slave.eqiad.wmnet"	"zh"	"wikibooks"	"Chinese"
+"zhwikinews"	"s3-analytics-slave.eqiad.wmnet"	"zh"	"wikinews"	"Chinese"
+"zhwikiquote"	"s3-analytics-slave.eqiad.wmnet"	"zh"	"wikiquote"	"Chinese"
+"zhwikisource"	"s3-analytics-slave.eqiad.wmnet"	"zh"	"wikisource"	"Chinese"
+"zhwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"zh"	"wiktionary"	"Chinese"
+"zuwiki"	"s3-analytics-slave.eqiad.wmnet"	"zu"	"wiki"	"Zulu"
+"zuwiktionary"	"s3-analytics-slave.eqiad.wmnet"	"zu"	"wiktionary"	"Zulu"
+"dewiki"	"s5-analytics-slave.eqiad.wmnet"	"de"	"wiki"	"German"
+"frwiki"	"s6-analytics-slave.eqiad.wmnet"	"fr"	"wiki"	"French"
+"jawiki"	"s6-analytics-slave.eqiad.wmnet"	"ja"	"wiki"	"Japanese"
+"ruwiki"	"s6-analytics-slave.eqiad.wmnet"	"ru"	"wiki"	"Russian"
+"arwiki"	"s7-analytics-slave.eqiad.wmnet"	"ar"	"wiki"	"Arabic"
+"cawiki"	"s7-analytics-slave.eqiad.wmnet"	"ca"	"wiki"	"Catalan"
+"eswiki"	"s7-analytics-slave.eqiad.wmnet"	"es"	"wiki"	"Spanish"
+"fawiki"	"s7-analytics-slave.eqiad.wmnet"	"fa"	"wiki"	"Persian"
+"frwiktionary"	"s7-analytics-slave.eqiad.wmnet"	"fr"	"wiktionary"	"French"
+"hewiki"	"s7-analytics-slave.eqiad.wmnet"	"he"	"wiki"	"Hebrew"
+"huwiki"	"s7-analytics-slave.eqiad.wmnet"	"hu"	"wiki"	"Hungarian"
+"kowiki"	"s7-analytics-slave.eqiad.wmnet"	"ko"	"wiki"	"Korean"
+"rowiki"	"s7-analytics-slave.eqiad.wmnet"	"ro"	"wiki"	"Romanian"
+"ukwiki"	"s7-analytics-slave.eqiad.wmnet"	"uk"	"wiki"	"Ukrainian"
+"viwiki"	"s7-analytics-slave.eqiad.wmnet"	"vi"	"wiki"	"Vietnamese"
