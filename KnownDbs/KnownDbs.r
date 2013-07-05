@@ -121,9 +121,24 @@ db_tsv_gen.fun <- function(){
     
     #Insert language code
     databases.df$Lang_Code <- gsub(pattern = "(wiki|quote|source|versity|voyage|books|news|media|species)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
+    
+    
     #reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wiki(quote|source|versity|voyage|books|news|media|species|tionary|\\Z))", ignore.case = TRUE, perl = TRUE)
     #databases.df$Project_Type <- regmatches(databases.df$Database, m = reg_matches.vec, invert = TRUE)
     
+    #Match human-readable names
+    databases.df$Lang_Name <- NA
+    
+    for(i in (1:nrow(databases.df))){
+      
+      to.run <- paste("^",as.character(databases.df[i,3]),"$", sep = "")
+      match <- grep(pattern = to.run, x = lang_codes.df$Id)
+      
+      if(length(match) > 0){
+        databases.df[i,4] <- lang_codes.df[match,6]
+      }
+    }
+        
     #Return
     return(databases.df)
     
