@@ -80,7 +80,8 @@ db_tsv_gen.fun <- function(){
     
     servers.ls <- list(c("http://noc.wikimedia.org/conf/closed.dblist"),
                        c("http://noc.wikimedia.org/conf/deleted.dblist"),
-                       c("http://noc.wikimedia.org/conf/special.dblist"))
+                       c("http://noc.wikimedia.org/conf/special.dblist"),
+                       c("https://noc.wikimedia.org/conf/private.dblist"))
     
     MirrorMan <- FALSE
     Order66 <- length(servers.ls)
@@ -120,7 +121,7 @@ db_tsv_gen.fun <- function(){
     databases.df <- databases.df[!databases.df$Database %in% exclude.df$Database,]
     
     #Insert language code
-    databases.df$Lang_Code <- gsub(pattern = "(wiki|quote|source|versity|voyage|books|news|media|species)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
+    databases.df$Lang_Code <- gsub(pattern = "(wiki(source|quote|versity|voyage|news|species|media|books)?|wiktionary)", replacement = "", x = databases.df$Database, ignore.case = FALSE, perl = TRUE)
     
     
     #reg_matches.vec <- regexpr(text = databases.df$Database, pattern = "(wiki(quote|source|versity|voyage|books|news|media|species|tionary|\\Z))", ignore.case = TRUE, perl = TRUE)
